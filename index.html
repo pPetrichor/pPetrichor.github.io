@@ -1,515 +1,431 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Youtian Lin</title>
-  <meta name="author" content="Youtian Lin">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youtian Lin – Academic Personal Page</title>
+  <!-- Tailwind CSS CDN (replace with self‑hosted build for production) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; }
+    [data-lang='en'] .lang-zh { display: none; }
+    [data-lang='zh'] .lang-en { display: none; }
+    /* Icon size helper */
+    .icon { width: 1.1rem; height: 1.1rem; display: inline-block; }
+    /* keeps the page exactly 1280 px, centred on large screens */
+    .page-wrapper {
+        width: 480px;       /* 1280 px always   */
+        margin-left: auto;   /* centre when room */
+        margin-right: auto;
+    }
+    .herfo-text {
+        color:rgba(0, 179, 255, 0.978)
+    }
+    .hrefo-paper {
+        color:rgba(76, 84, 88, 0.743)
+    }
+    html {
+        font-size: 9px;     /* 15 px base instead of Tailwind’s 16 px */
+    }
+  </style>
 </head>
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                  <p class="name" style="text-align: center; font-family: 'Times New Roman', Times, serif;">
-                    Youtian Lin
-                  </p>
-                  <p>
-                    I am a first-year Ph.D. student at <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, supervised by <a href="https://yoyo000.github.io/index.html">Prof. Yao Yao</a> and <a href="https://is.nju.edu.cn/ttn_en/main.htm">Prof. Tieniu Tan</a>. My research focuses on 3D/4D reconstruction and generation. Previously, I pursued a Ph.D. at the <a href="https://www.hit.edu.cn">Harbin Institute of Technology</a>. I earned my M.S. from the <a href="https://english.hrbeu.edu.cn">Harbin Engineering University</a> in 2021, where I was advised by <a href="https://www.researchgate.net/profile/Jian-Guan-24">Prof. Jian Guan</a>.
-                  </p>
-                  <p style="text-align:center">
-                    <span style="font-size:1.3em; vertical-align:middle; margin-right:6px;">✉️</span>
-                    <a href="mailto:linyoutian.loyot@gmail.com">Email</a> &nbsp;|&nbsp;
-                    <img src="images/google-scholar-icon.png" alt="Google Scholar" style="width:20px;vertical-align:middle;margin-right:4px;">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=VhhHLhIAAAAJ">Scholar</a> &nbsp;|&nbsp;
-                    <img src="images/twitter-x-icon.png" style="width: 15px; vertical-align:middle; margin-right:4px;">
-                    <a href="https://twitter.com/linyoutian2">Twitter (X)</a> &nbsp;|&nbsp;
-                    
-                    <img src="images/github-icon.png" style="width:20px; vertical-align:middle; margin-right:4px;">
-                    <a href="https://github.com/Linyou">Github</a>
-                  </p>
-                </td>
-                <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/head.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/head.png" class="hoverZoomLink"></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>News</h2>
-                    <p>
-                      2024-09-27: Two papers accepted by NeurIPS 2024 ! 🎉🎉🎉 <strong>Direct3D, FastDrag</strong>
-                    </p>
-                    <p>
-                      2024-07-01: Three papers accepted by ECCV 2024 ! 🎉🎉🎉 <strong>Relightable 3D Gaussian, STAG4D, UniDream</strong>
-                    </p>
-                    <p>
-                      2024-05-24: New paper released! <strong>FastDrag</strong>
-                    </p>
-                    <p>
-                      2024-05-23: New paper released! <strong>Direct3D</strong>
-                    </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>Research</h2>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table id="research-items" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:0 20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/fds.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:0 20px;width:75%;vertical-align:top">
-                  <a href="https://nju-3dv.github.io/projects/fds/fds.pdf">
-                    <span class="papertitle">Flow Distillation Sampling: Regularizing 3D Gaussians with Pre-trained Matching Priors</span>
-                  </a>
-                  <br>
-                    <a href="https://linzhuo.xyz">Lin-Zhuo Chen</a> *</sup>,
-                    <a href="">Kangjie Liu</a> *</sup>,
-                    <strong>Youtian Lin</strong>,
-                    <a href="">Zhihao Li</a>,
-                    <a href="https://siyuzhu-fudan.github.io/">Siyu Zhu</a>, 
-                    <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html">Xun Cao</a>,
-                    <a href="https://yoyo000.github.io/">Yao Yao</a>
-                  <br>
-                  <em>ICLR</em>, 2025 &nbsp
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/NJU-3DV/fds">Github</a>
-                  |
-                  <a href="https://nju-3dv.github.io/projects/fds/">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p> -->
-                  <!-- <p>
-                    A method for distilling geometric information from a pre-trained optical flow model into 3DGS. FDS samples unobserved views adjacent to the input views and calculates Prior-Flow to guide the analytically calculated Radiance-Flow.
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/direct3d.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2405.14832">
-                    <span class="papertitle">Direct3D: Scalable Image-to-3D Generation via 3D Latent Diffusion Transformer</span>
-                  </a>
-                  <br>
-                  <a href="https://scholar.google.it/citations?user=SN8J78EAAAAJ&hl=zh-CN">Shuang Wu*</a>,
-                  <strong>Youtian Lin*</strong>,
-                  <a href="http://www.feihuzhang.com">Feihu Zhang</a>,
-                  <a href="https://github.com/zeng-yifei">Yifei Zeng</a>,
-                  <a href="https://www.researchgate.net/profile/Jingxi-Xu-2">Jingxi Xu</a>,
-                  <a href="https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=zh-CN">Philip Torr</a>, 
-                  <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html">Xun Cao</a>, 
-                  <a href="https://yoyo000.github.io/index.html">Yao Yao</a>
-                  <br>
-                  <em>NeurIPS</em>, 2024 &nbsp
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/DreamTechAI/Direct3D">Github</a>
-                  |
-                  <a href="https://nju-3dv.github.io/projects/Direct3D/">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <p></p>
-                  <!-- <p>
-                    Direct3D introduces a scalable approach for generating high-quality 3D assets from images. It uses D3D-VAE for efficient 3D shape encoding and D3D-DiT for modeling 3D latents. This method setting a new standard for 3D content creation. 
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/fastdrag.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2405.15769">
-                    <span class="papertitle">FastDrag: Manipulate Anything in One Step</span>
-                  </a>
-                  <br>
-                  
-                  <a href="https://www.researchgate.net/profile/Jian-Guan-24">Xuanjia Zhao</a>,
-                  <a href="https://www.researchgate.net/profile/Jian-Guan-24">Jian Guan</a>,
-                  <a href="https://www.researchgate.net/profile/Jian-Guan-24">Congyi Fan</a>,
-                  <a href="https://scholar.google.com/citations?hl=en&user=BfZECLsAAAAJ">Dongli Xu</a>,
-                  <strong>Youtian Lin</strong>,
-                  <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ">Haiwei Pan</a>,
-                  <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ">Pengming Feng</a>,
-                  <br>
-                  <em>NeurIPS</em>, 2024 &nbsp
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/XuanjiaZ/FastDrag">Github</a>
-                  |
-                  <a href="https://fastdrag-site.github.io">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p>
-                  <p>
-                    FastDrag is a new, faster drag-based image editing method that uses a latent warpage function for one-step pixel adjustment and a bilateral nearest neighbor interpolation to fill null regions. It also ensures consistency with the original image.
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/stag4d.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2403.14939">
-                    <span class="papertitle">STAG4D: Spatial-Temporal Anchored Generative 4D Gaussians</span>
-                  </a>
-                  <br>
-                  <a href="https://github.com/zeng-yifei">Yifei Zeng*</a>,
-                  <a href="https://github.com/yanqinJiang">Yanqin Jiang*</a>,
-                  <a href="https://sites.google.com/site/zhusiyucs/home/">Siyu Zhu</a>,
-                  <a href="https://github.com/YuanxunLu">Yuanxun Lu</a>,
-                  <strong>Youtian Lin</strong>,
-                  <a href="http://zhuhao.cc/">Hao Zhu</a>,
-                  <a href="https://people.ucas.ac.cn/~huweiming">Weiming Hu</a>,
-                  <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html">Xun Cao</a>,
-                  <a href="https://yoyo000.github.io/index.html">Yao Yao</a>
-                  <br>
-                  <em>ECCV</em>, 2024 &nbsp
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/zeng-yifei/STAG4D">Github</a> |
-                  <a href="https://nju-3dv.github.io/projects/STAG4D/">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p>
-                  <p>
-                    High-fidelity 4D generation from diverse inputs (text, image, and video) with pre-trained diffusion models and dynamic 3D Gaussian splatting. 
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/gaussian-flow.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2312.03431">
-                    <span class="papertitle">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</span>
-                  </a>
-                  <br>
-                  <strong>Youtian Lin</strong>,
-                  <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=1W9jiEEAAAAJ">Zuozhuo Dai</a>,
-                  <a href="https://sites.google.com/site/zhusiyucs/home">Siyu Zhu</a>,
-                  <a href="https://yoyo000.github.io/index.html">Yao Yao</a>
-                  <br>
-                  <em>CVPR</em>, 2024 (<font color="red">Highlight: 2.8%</font>) &nbsp
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/NJU-3DV/Gaussian-Flow">Github</a> |
-                  <a href="https://nju-3dv.github.io/projects/Gaussian-Flow/">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p>
-                  <p>
-                    We propose an innovative point-based method for rapid dynamic scene reconstruction and real-time rendering from both multi-view and monocular videos, leveraging advancements in point-based 3D Gaussian Splatting (3DGS). 
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/brdf-3dgs-2.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2311.16043">
-                    <span class="papertitle">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</span>
-                  </a>
-                  <br>
-                  <a href="https://ygaojiany.github.io">Jian Gao</a>,
-                  <a href="https://sulvxiangxin.github.io">Chun Gu</a>,
-                  <strong>Youtian Lin</strong>,
-                  <a href="http://zhuhao.cc/home/">Hao Zhu</a>,
-                  <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html">Xun Cao</a>,
-                  <a href="https://lzrobots.github.io">Li Zhang</a>,
-                  <a href="https://yoyo000.github.io/index.html">Yao Yao</a>
-                  <br>
-                  <em>ECCV</em>, 2024 &nbsp 
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/NJU-3DV/Relightable3DGaussian">Github</a> |
-                  <a href="https://nju-3dv.github.io/projects/Relightable3DGaussian/">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p>
-                  <p>
-                    Utilizuing 3D Gaussian points to represent a scene, allowing for material and lighting decomposition, enabling real-time relighting, ray-tracing, and editing of the 3D point cloud with improved BRDF estimation and novel view rendering results. 
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/unidream-1.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://yg256li.github.io/UniDream/">
-                    <span class="papertitle">UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation</span>
-                  </a>
-                  <br>
-                  <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=bkPJckwAAAAJ">Zexiang Liu*</a>,
-                  <a href="https://scholar.google.com/citations?user=a7AMvgkAAAAJ&hl=zh-CN">Yangguang Li*</a>,
-                  <strong>Youtian Lin*</strong>,
-                  <a href="https://scholar.google.com/citations?user=JX8kSoEAAAAJ&hl=zh-CN">Xin Yu</a>,
-                  <a href="https://pengsida.net">Sida Peng</a>,
-                  <a href="https://yanpei.me">Yan-Pei Cao</a>,
-                  <a href="https://xjqi.github.io">Xiaojuan Qi</a>,
-                  <a href="https://www.researchgate.net/profile/Jian-Guan-24">Xiaoshui Huang</a>,
-                  <a href="https://scholar.google.com/citations?user=Dqjnn0gAAAAJ&hl=zh-CN">Ding Liang</a>,
-                  <a href="https://wlouyang.github.io">Wanli Ouyang</a>
-                  <br>
-                  <em>ECCV</em>, 2024 &nbsp 
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/YG256Li/UniDream">Github</a> |
-                  <a href="https://yg256li.github.io/UniDream/">Project Page</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p>
-                  <p>
-                    Use a dual-phase training process for albedo-normal aligned multi-view diffusion and reconstruction models, a progressive generation procedure for geometry and albedo-textures using Score Distillation Sample (SDS), and an innovative SDS application for finalizing Physically Based Rendering (PBR) generation with fixed albedo. 
-                  </p> -->
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:top">
-                  <div class="one">
-                    <img src='images/ced-nerf2.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:top">
-                  <a href="https://github.com/Linyou/Ced-NeRF">
-                    <span class="papertitle">Ced-NeRF: A Compact and Efficient Method for Dynamic Neural Radiance Fields</span>
-                  </a>
-                  <br>
-                  <strong>Youtian Lin</strong>
-                  <br>
-                  <em>AAAI</em>, 2024 &nbsp 
-                  <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                  <br>
-                  <a href="https://github.com/Linyou/Ced-NeRF">Github</a>
-                  <!-- /
-                  <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                  /
-                  <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                  <!-- <p></p>
-                  <p>
-                    We extend the Instant-NGP framework to support dynamic scenes, and show that it can be used to train a dynamic NeRF model that is both more compact and more efficient than prior work. 
-                  </p> -->
-                </td>
-              </tr>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100">
+    <!-- ===  Re‑usable SVG symbol bank  ======================= -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <!-- Paper / PDF -->
+        <symbol id="icon-paper" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M14.25 2.25H6A2 2 0 0 0 4 4.25v15.5A2 2 0 0 0 6 21.75h12a2 2 0 0 0 2-2V8.25L14.25 2.25z"/>
+        <path d="M14 2.25v6h6"/>
+        </symbol>
+    
+        <!-- Project page (external link / globe style) -->
+        <symbol id="icon-project" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 3v3m0 12v3m9-9h-3M6 12H3m13.95-5.95-2.12 2.12M8.12 15.88l-2.12 2.12m0-12 2.12 2.12m9.76 9.76 2.12 2.12"/>
+        </symbol>
 
-              <!-- <td style="padding:20px;width:25%;vertical-align:top">
-                <div>
-                  <h2> Previous Works </h2>
-                </div>
-              </td>
-              </tr> -->
-              <td style="padding:0 20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <img src='images/earl.png' width="160">
-                </div>
-              </td>
-              <td style="padding:0 20px;width:75%;vertical-align:top">
-                <a href="https://ieeexplore.ieee.org/document/10238752">
-                  <span class="papertitle">EARL: An Elliptical Distribution aided Adaptive Rotation Label Assignment for Oriented Object Detection in Remote Sensing Images</span>
-                </a>
-                <br>
-                <a href="https://www.researchgate.net/profile/Jian-Guan-24">Jian Guan</a>,
-                <a href="https://justlovesmile.github.io/">Mingjie Xie</a>,
-                <strong>Youtian Lin</strong>,
-                <a href="https://scholar.google.com/citations?user=a7AMvgkAAAAJ&hl=zh-CN">Guangjun He</a>,
-                <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ">Pengming Feng</a>
-                <br>
-                <em>IEEE TGRS</em>, 2023 &nbsp 
-                <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                <br>
-                <a href="https://github.com/Justlovesmile/EARL">Github</a>
-                <!-- <p></p>
-                <p>
-                  Incorporating adaptive scale sampling, dynamic elliptical distribution aided sampling, and spatial distance weighting to enhance the selection of high-quality positive samples.
-                </p> -->
-              </td>
-              </tr>
-              <td style="padding:0 20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <img src='images/toso.png' width="160">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:top">
-                <a href="https://ieeexplore.ieee.org/document/9053562">
-                  <span class="papertitle">TOSO: Student's-T Distribution Aided One-Stage Orientation Target Detection in Remote Sensing Images</span>
-                </a>
-                <br>
-                <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ">Pengming Feng*</a>,
-                <strong>Youtian Lin*</strong>,
-                <a href="https://www.researchgate.net/profile/Jian-Guan-24">Jian Guan</a>,
-                <a href="https://scholar.google.com/citations?user=a7AMvgkAAAAJ&hl=zh-CN"> Guangjun He</a>,
-                <a href="https://linyou.github.io/youtian-page/">Huifeng Shi</a>,
-                <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=UeOcj28AAAAJ">Jonathon Chambers</a>
-                <br>
-                <em>ICASSP</em>, 2020 &nbsp 
-                <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                <br>
-                <!-- <a href="https://github.com/Linyou/Ced-NeRF">Project Page</a> -->
-                <!-- /
-                <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                /
-                <a href="https://github.com/Linyou/Ced-NeRF">gallery</a> -->
-                <!-- <p></p>
-                <p>
-                  Utilizing a one-stage keypoint based network architecture and introducing a novel geometric transformation method to achieve orientation angle regression, along with incorporating Student's-t distribution to enhance performance
-                </p> -->
-              </td>
-              </tr>
-              <td style="padding:20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <img src='images/ienet.png' width="160">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:top">
-                <a href="https://arxiv.org/abs/1912.00969">
-                  <span class="papertitle">IENet: Interacting Embranchment One Stage Anchor Free Detector for Orientation Aerial Object Detection</span>
-                </a>
-                <br>
-                <strong>Youtian Lin</strong>,
-                <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ">Pengming Feng</a>,
-                <a href="https://www.researchgate.net/profile/Jian-Guan-24">Jian Guan</a>,
-                <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=JQFnV5IAAAAJ">Wenwu Wang</a>,
-                <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=UeOcj28AAAAJ">Jonathon Chambers</a>
-                <br>
-                <em>Arxiv</em>, 2019 &nbsp 
-                <!-- <font color="red"><strong>(Oral Presentation)</strong></font> -->
-                <br>
-                <!-- <p></p>
-                <p>
-                  We addressing the challenges of computational complexity in two-stage detectors by employing a per-pixel prediction approach with a geometric transformation, a branch interactive module, and an enhanced intersection over union (IoU) loss. 
-                </p> -->
-              </td>
-              </tr>
+        <!-- Project page (internal link / arrow style) -->
+        <symbol id="icon-arrow" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 3v3m0 12v3m9-9h-3M6 12H3m13.95-5.95l-2.12 2.12M8.12 15.88l-2.12 2.12m0-12l2.12 2.12m9.76 9.76l2.12 2.12"/><path d="M14 3h7v7h-2V6.414l-9.293 9.293-1.414-1.414L17.586 5H14V3Z"/><path d="M5 5h6V3H3v8h2V5Z"/><path d="M19 19h-6v2h8v-8h-2v6Z"/><path d="M5 11H3v10h10v-2H5v-8Z"/>
+        </symbol>
+    
+        <!-- GitHub -->
+        <symbol id="icon-github" viewBox="0 0 24 24" fill="currentColor">
+        <path fill-rule="evenodd"
+                d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.39 7.86 10.91.57.11.8-.25.8-.56
+                0-.28-.01-1.19-.02-2.16-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68
+                -1.05-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96
+                .1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09
+                -.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18.91-.25 1.88-.38 2.87-.38.98 0 1.96.13
+                2.87.38 2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83
+                1.18 3.09 0 4.42-2.69 5.4-5.26 5.68.41.36.79 1.1.79 2.22 0 1.6-.02 2.9-.02 3.29
+                0 .31.21.67.8.56C20.71 21.39 24 17.08 24 12 24 5.65 18.35.5 12 .5z"/>
+        </symbol>
+    </svg>
+    <!-- ====================================================== -->
+  <!-- ===================== Hero ===================== -->
+  <header class="relative overflow-hidden">
+    <!-- Gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 opacity-60"></div>
 
-            </tbody>
-          </table>
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Community Service</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            <tr>
-              <td width="75%" valign="top">
-                <p>
-                  <h3>Conference Reviewer: </h3> SIGGRAPH Asia / ICCV / NeurIPS / ICLR / ICASSP
-                  <br><br>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Projects</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/github-mark.png" alt="piano" width="120"></td>
-              <td width="75%" valign="center">
-                <p>
-                  <a href="https://github.com/DSaurus/threestudio-3dgs">
-                    <papertitle>pointrix-project</papertitle> 
-                  </a><br>
-                  Pointrix: a differentiable point-based rendering library. 
-                  <br><br>
-                  <a href="https://github.com/DSaurus/threestudio-3dgs">
-                    <papertitle>threestudio-3dgs</papertitle> 
-                  </a><br>
-                  The Gaussian Splatting extension for threestudio. 
-                  <br><br>
-                  <a href="https://github.com/taichi-dev/taichi-nerfs">
-                    <papertitle>taichi-nerfs</papertitle>
-                  </a>
-                  <br>
-                  A PyTorch + Taichi implementation of instant-ngp NeRF training pipeline. For more details about modeling, please checkout <a href="https://docs.taichi-lang.org/blog/taichi-instant-ngp">this blog</a>.
-                  <br><br>
-                  <a href="https://github.com/Linyou/taichi-ngp-renderer">
-                    <papertitle>taichi-ngp-renderer</papertitle> 
-                  </a><br>
-                  A Instant-NGP renderer implemented using Taichi, written entirely in Python. No CUDA! 
-                  <br><br>
-                  <a href="https://github.com/nerfstudio-project/nerfacc">
-                    <papertitle>nerfacc</papertitle> 
-                  </a><br>
-                  A PyTorch Nerf acceleration toolbox for both training and inference. (<strong>As a contributor, I have implemented a fast ngp rendering in CUDA</strong>) 
-                  <br><br>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Source code borrow from <a href="https://github.com/jonbarron/jonbarron_website">jonbarron</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+    <!-- Profile photo -->
+    <img src="images/head.png" alt="Youtian Lin" class="absolute z-20 top-20 left-24 w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"  />
+
+    <!-- Language toggle -->
+    <button id="lang-toggle" class="absolute z-20 top-6 right-6 px-4 py-2 rounded-full bg-black/50 text-sm font-semibold shadow hover:bg-black">中文</button>
+
+    <!-- Hero text -->
+    <div class="relative z-10 max-w-5xl mx-auto px-6 py-24 text-center">
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow">
+        <span class="lang-en">Youtian Lin</span>
+        <span class="lang-zh">林尤添</span>
+      </h1>
+      <p class="mt-4 text-xl md:text-2xl text-slate-100/90">
+        <span class="lang-en">Ph.D. Student • Computer Vision & Graphics • NJU‑3DV Lab</span>
+        <span class="lang-zh">博士研究生 • 计算机视觉与图形学 • 南京大学 NJU‑3DV 实验室</span>
+      </p>
+      <nav class="mt-10 flex flex-wrap justify-center gap-6 text-slate-200/90 text-lg">
+        <a href="#intro" class="hover:text-white"><span class="lang-en">About</span><span class="lang-zh">简介</span></a>
+        <a href="#research" class="hover:text-white"><span class="lang-en">Research</span><span class="lang-zh">研究方向</span></a>
+        <a href="#news" class="hover:text-white"><span class="lang-en">News</span><span class="lang-zh">动态</span></a>
+        <a href="#publications" class="hover:text-white"><span class="lang-en">Publications</span><span class="lang-zh">论文</span></a>
+        <a href="#service" class="hover:text-white"><span class="lang-en">Service</span><span class="lang-zh">服务</span></a>
+        <a href="#projects" class="hover:text-white"><span class="lang-en">Projects</span><span class="lang-zh">项目</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-wrapper">
+  <main class="max-w-5xl mx-auto px-6 py-16 space-y-24">
+    <!-- ===================== Intro ===================== -->
+    <section id="intro" class="space-y-4">
+      <h2 class="text-3xl font-bold border-b-4 border-indigo-500 inline-block pb-1"><span class="lang-en">Brief Introduction</span><span class="lang-zh">简介</span></h2>
+      <p class="text-lg lang-en">I am a first-year Ph.D. student at <a href="https://www.nju.edu.cn/en/" class="herfo-text">Nanjing University</a>, supervised by <a href="https://yoyo000.github.io/index.html" class="herfo-text">Prof. Yao Yao</a> and <a href="https://is.nju.edu.cn/ttn_en/main.htm" class="herfo-text">Prof. Tieniu Tan</a>. Previously, I pursued a Ph.D. at the <a href="https://www.hit.edu.cn" class="herfo-text">Harbin Institute of Technology</a>. I earned my M.S. from the <a href="https://english.hrbeu.edu.cn" class="herfo-text">Harbin Engineering University</a> in 2021, where I was advised by <a href="https://www.researchgate.net/profile/Jian-Guan-24" class="herfo-text">Prof. Jian Guan</a>.</p>
+      <p class="text-lg lang-zh">我目前是 <a href="https://www.nju.edu.cn/en/" class="herfo-text">南京大学</a> 博士一年级学生，导师为 <a href="https://yoyo000.github.io/index.html" class="herfo-text">姚遥教授</a> 和 <a href="https://is.nju.edu.cn/ttn_en/main.htm" class="herfo-text">谭铁牛教授</a>。之前在 <a href="https://www.hit.edu.cn" class="herfo-text">哈尔滨工业大学</a> 攻读博士学位。2021 年获得 <a href="https://english.hrbeu.edu.cn" class="herfo-text">哈尔滨工程大学</a> 硕士学位，导师<a href="https://www.researchgate.net/profile/Jian-Guan-24" class="herfo-text">关健教授</a>。</p>
+      <p class="text-lg lang-en">I have been working at leading 3D generation startup Taichi (Meshy AI) and VAST (Tripo AI) to pushing the boundaries of 3D assets creation.</p>
+      <p class="text-lg lang-zh">我曾在领先的 3D 生成初创公司 Taichi（Meshy AI）和 VAST（Tripo AI）工作，推动 3D 资产创建的边界。</p>
+      <!-- <p class="text-lg lang-zh">我目前是 <strong>南京大学智能科学与技术学院</strong> 博士一年级学生，导师为姚遥教授和谭铁牛教授，研究方向为 <em>3D/4D 场景重建与生成</em> 以及高性能神经渲染。2021 年获得哈尔滨工程大学硕士学位，导师关健教授。</p> -->
+      <!-- <p class="text-lg lang-en">In summer 2025, I will intern with Apple 3D Vision in Hong Kong.</p>
+      <p class="text-lg lang-zh">2025 年夏，将前往香港 Apple 3D Vision 团队实习。</p> -->
+    </section>
+
+    <!-- ===================== Research Interests ===================== -->
+    <section id="research" class="space-y-6">
+      <h2 class="text-3xl font-bold border-b-4 border-purple-500 inline-block pb-1"><span class="lang-en">Research Interests</span><span class="lang-zh">研究方向</span></h2>
+      <!-- <ul class="list-disc pl-6 space-y-3 text-lg">
+        <li><span class="lang-en">Neural & hybrid methods for <strong>3D/4D dynamic scene reconstruction</strong></span><span class="lang-zh">面向 <strong>3D/4D 动态场景重建</strong> 的神经与混合方法</span></li>
+        <li><span class="lang-en">Real‑time <strong>neural rendering</strong> and <strong>Gaussian Splatting</strong></span><span class="lang-zh">实时 <strong>神经渲染</strong> 与 <strong>Gaussian Splatting</strong></span></li>
+        <li><span class="lang-en"><strong>Generative AI</strong> for shape & appearance synthesis (diffusion, VAE, flow)</span><span class="lang-zh"><strong>生成式 AI</strong>（扩散、VAE、流模型）用于形状和外观合成</span></li>
+        <li><span class="lang-en">High‑performance GPU pipelines (CUDA / Vulkan)</span><span class="lang-zh">高性能 GPU 管线（CUDA / Vulkan）</span></li>
+      </ul> -->
+      <p class="text-lg lang-en">My research interests are in computer vision and graphics, with a particular focus on 3D and 4D reconstruction and generation. I am also exploring recent advances in neural rendering and generative models. My work aims to reconstruct and synthesize realistic representations of the physical world.</p>
+      <p class="text-lg lang-zh">我的研究兴趣主要集中在计算机视觉与图形学，特别关注3D和4D的重建与生成。我还在探索神经渲染和生成模型的最新进展。我的研究致力于重建和合成物理世界的真实表征。</p>
+
+     <p class="text-lg lang-en">I'm also interested in high-performance GPU and Graphic programming, including CUDA and Vulkan (also kind of knowing OpenGL and Metal).</p>
+      <p class="text-lg lang-zh">我也对高性能 GPU 和图形编程感兴趣，包括 CUDA 和 Vulkan（也了解 OpenGL 和 Metal）。</p>
+    </section>
+
+    <!-- ===================== News ===================== -->
+    <section id="news" class="space-y-6">
+      <h2 class="text-3xl font-bold border-b-4 border-pink-500 inline-block pb-1"><span class="lang-en">Recent News</span><span class="lang-zh">最新动态</span></h2>
+      <ul class="space-y-4 text-lg">
+        <li><span class="font-semibold">2025‑05‑06</span> – <span class="lang-en">In summer 2025, I will intern with Apple 3D Vision in Hong Kong.</span><span class="lang-zh">2025 年夏，将前往香港 Apple 3D Vision 团队实习。</span></li>
+        <li><span class="font-semibold">2024‑09‑27</span> – <span class="lang-en">Two papers (<em>Direct3D</em>, <em>FastDrag</em>) accepted to NeurIPS 2024.</span><span class="lang-zh">两篇论文 (<em>Direct3D</em>, <em>FastDrag</em>) 被 NeurIPS 2024 接收。</span></li>
+        <li><span class="font-semibold">2024‑07‑01</span> – <span class="lang-en">Three ECCV 2024 papers: Relightable 3D Gaussian, STAG4D, UniDream.</span><span class="lang-zh">三篇 ECCV 2024 论文：Relightable 3D Gaussian、STAG4D、UniDream。</span></li>
+      </ul>
+    </section>
+
+    <!-- ===================== Publications ===================== -->
+    <section id="publications" class="space-y-6">
+      <h2 class="text-3xl font-bold border-b-4 border-indigo-500 inline-block pb-1"><span class="lang-en">Selected Publications</span><span class="lang-zh">论文发表</span></h2>
+      <ol class="space-y-10 relative border-l-2 border-slate-300 dark:border-slate-600 pl-6">
+        <!-- === Flow Distillation Sampling === -->
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500 rounded-full"></span>
+          <img src="images/fds.png" alt="Flow Distillation Sampling" class="w-48 h-35 object-cover rounded-lg shadow"  />
+          <div>
+            <p class="font-semibold">Flow Distillation Sampling: Regularizing 3D Gaussians with Pre‑trained Matching Priors</p>
+            <a href="https://linzhuo.xyz" class="hrefo-paper">Lin-Zhuo Chen</a> *</sup>,
+            <a href="" class="hrefo-paper">Kangjie Liu</a> *</sup>,
+            <strong>Youtian Lin</strong>,
+            <a href="" class="hrefo-paper">Zhihao Li</a>,
+            <a href="https://siyuzhu-fudan.github.io/" class="hrefo-paper">Siyu Zhu</a>, 
+            <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html" class="hrefo-paper">Xun Cao</a>,
+            <a href="https://yoyo000.github.io/" class="hrefo-paper">Yao Yao</a> 
+            <p class="italic text-sm">ICLR 2025</p>
+            <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                <a href="https://nju-3dv.github.io/projects/fds/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                <a href="https://nju-3dv.github.io/projects/fds/fds.pdf" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                <a href="https://github.com/NJU-3DV/fds" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+            </div>
+          </div>
+        </li>
+
+        <!-- === Direct3D -->
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+          <img src="images/direct3d.png" alt="Direct3D" class="w-48 h-35 object-cover rounded-lg shadow"  />
+          <div>
+            <p class="font-semibold">Direct3D: Scalable Image‑to‑3D Generation via 3D Latent Diffusion Transformer</p>
+            <a href="https://scholar.google.it/citations?user=SN8J78EAAAAJ&hl=zh-CN" class="hrefo-paper">Shuang Wu*</a>,
+            <strong>Youtian Lin*</strong>,
+            <a href="http://www.feihuzhang.com" class="hrefo-paper">Feihu Zhang</a>,
+            <a href="https://github.com/zeng-yifei" class="hrefo-paper">Yifei Zeng</a>,
+            <a href="https://www.researchgate.net/profile/Jingxi-Xu-2" class="hrefo-paper">Jingxi Xu</a>,
+            <a href="https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=zh-CN" class="hrefo-paper">Philip Torr</a>, 
+            <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html" class="hrefo-paper">Xun Cao</a>, 
+            <a href="https://yoyo000.github.io/index.html" class="hrefo-paper">Yao Yao</a>
+            <p class="italic text-sm">NeurIPS 2024</p>
+            <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                <a href="https://nju-3dv.github.io/projects/Direct3D/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                <a href="https://arxiv.org/abs/2405.14832" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                <a href="https://github.com/DreamTechAI/Direct3D" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+            </div>
+          </div>
+        </li>
+
+        <!-- === FastDrag -->
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+          <img src="images/fastdrag.png" alt="FastDrag" class="w-48 h-35 bg-white object-cover rounded-lg shadow"  />
+          <div>
+            <p class="font-semibold">FastDrag: Manipulate Anything in One Step</p>
+            <a href="" class="hrefo-paper">Xuanjia Zhao</a>,
+            <a href="https://www.researchgate.net/profile/Jian-Guan-24" class="hrefo-paper">Jian Guan</a>,
+            <a href="">Congyi Fan</a>,
+            <a href="https://scholar.google.com/citations?hl=en&user=BfZECLsAAAAJ" class="hrefo-paper">Dongli Xu</a>,
+            <strong>Youtian Lin</strong>,
+            <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ" class="hrefo-paper">Haiwei Pan</a>,
+            <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=O51mMKgAAAAJ" class="hrefo-paper">Pengming Feng</a>
+            <p class="italic text-sm">NeurIPS 2024</p>
+            <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                <a href="https://fastdrag-site.github.io" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                <a href="https://arxiv.org/abs/2405.15769" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                <a href="https://github.com/XuanjiaZ/FastDrag" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+            </div>
+          </div>
+        </li>
+
+        <!-- === STAG4D -->
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+          <img src="images/stag4d.png" alt="STAG4D" class="w-48 h-35 object-cover rounded-lg shadow"  />
+          <div>
+            <p class="font-semibold">STAG4D: Spatial‑Temporal Anchored Generative 4D Gaussians</p>
+            <a href="https://github.com/zeng-yifei" class="hrefo-paper">Yifei Zeng*</a>,
+            <a href="https://github.com/yanqinJiang" class="hrefo-paper">Yanqin Jiang*</a>,
+            <a href="https://sites.google.com/site/zhusiyucs/home/" class="hrefo-paper">Siyu Zhu</a>,
+            <a href="https://github.com/YuanxunLu" class="hrefo-paper">Yuanxun Lu</a>,
+            <strong>Youtian Lin</strong>,
+            <a href="http://zhuhao.cc/" class="hrefo-paper">Hao Zhu</a>,
+            <a href="https://people.ucas.ac.cn/~huweiming" class="hrefo-paper">Weiming Hu</a>,
+            <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html" class="hrefo-paper">Xun Cao</a>,
+            <a href="https://yoyo000.github.io/index.html" class="hrefo-paper">Yao Yao</a>
+            <p class="italic text-sm">ECCV 2024</p>
+            <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                <a href="https://nju-3dv.github.io/projects/STAG4D/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                <a href="https://arxiv.org/abs/2403.14939" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                <a href="https://github.com/zeng-yifei/STAG4D" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+            </div>
+          </div>
+        </li>
+
+        <!-- === Gaussian‑Flow -->
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+          <img src="images/gaussian-flow.png" alt="Gaussian‑Flow" class="w-48 h-35 object-cover rounded-lg shadow"  />
+          <div>
+            <p class="font-semibold">Gaussian‑Flow: 4D Reconstruction with Dynamic 3D Gaussian Particles</p>
+            <strong>Youtian Lin</strong>,
+            <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=1W9jiEEAAAAJ" class="hrefo-paper">Zuozhuo Dai</a>,
+            <a href="https://sites.google.com/site/zhusiyucs/home" class="hrefo-paper">Siyu Zhu</a>,
+            <a href="https://yoyo000.github.io/index.html" class="hrefo-paper">Yao Yao</a>
+            <p class="italic text-sm">CVPR 2024 (<font color="red">Highlight</font>)</p>
+            <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                <a href="https://nju-3dv.github.io/projects/Gaussian-Flow/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Lin_Gaussian-Flow_4D_Reconstruction_with_Dynamic_3D_Gaussian_Particle_CVPR_2024_paper.pdf" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                <a href="https://github.com/NJU-3DV/Gaussian-Flow" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+            <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+            <img src="images/brdf-3dgs-2.png" alt="Relightable-3DGS" class="w-48 h-35 object-cover rounded-lg shadow"  />
+            <div>
+              <p class="font-semibold">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</p>
+              <a href="https://ygaojiany.github.io" class="hrefo-paper">Jian Gao</a>,
+              <a href="https://sulvxiangxin.github.io" class="hrefo-paper">Chun Gu</a>,
+              <strong>Youtian Lin</strong>,
+              <a href="http://zhuhao.cc/home/" class="hrefo-paper">Hao Zhu</a>,
+              <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html" class="hrefo-paper">Xun Cao</a>,
+              <a href="https://lzrobots.github.io" class="hrefo-paper">Li Zhang</a>,
+              <a href="https://yoyo000.github.io/index.html" class="hrefo-paper">Yao Yao</a>
+              <p class="italic text-sm">ECCV 2024</p>
+              <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                  <a href="https://nju-3dv.github.io/projects/Relightable3DGaussian/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                  <a href="https://arxiv.org/abs/2311.16043" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                  <a href="https://github.com/NJU-3DV/Relightable3DGaussian" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+              </div>
+            </div>
+        </li>
+
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+            <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+            <img src="images/unidream-1.png" alt="UniDream" class="w-48 h-35 object-cover rounded-lg shadow"  />
+            <div>
+              <p class="font-semibold">UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation</p>
+              <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=bkPJckwAAAAJ" class="hrefo-paper">Zexiang Liu*</a>,
+              <a href="https://scholar.google.com/citations?user=a7AMvgkAAAAJ&hl=zh-CN" class="hrefo-paper">Yangguang Li*</a>,
+              <strong>Youtian Lin*</strong>,
+              <a href="https://scholar.google.com/citations?user=JX8kSoEAAAAJ&hl=zh-CN" class="hrefo-paper">Xin Yu</a>,
+              <a href="https://pengsida.net" class="hrefo-paper">Sida Peng</a>,
+              <a href="https://yanpei.me" class="hrefo-paper">Yan-Pei Cao</a>,
+              <a href="https://xjqi.github.io" class="hrefo-paper">Xiaojuan Qi</a>,
+              <a href="https://www.researchgate.net/profile/Jian-Guan-24" class="hrefo-paper">Xiaoshui Huang</a>,
+              <a href="https://scholar.google.com/citations?user=Dqjnn0gAAAAJ&hl=zh-CN" class="hrefo-paper">Ding Liang</a>,
+              <a href="https://wlouyang.github.io" class="hrefo-paper">Wanli Ouyang</a>
+              <p class="italic text-sm">ECCV 2024</p>
+              <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                  <a href="https://yg256li.github.io/UniDream/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a>
+                  <a href="https://arxiv.org/pdf/2312.08754" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                  <a href="https://github.com/YG256Li/UniDream" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+              </div>
+            </div>
+        </li>
+
+        <li class="flex flex-col sm:flex-row gap-6 items-start">
+            <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
+            <img src="images/ced-nerf2.png" alt="Ced-NeRF" class="w-48 h-35 object-cover rounded-lg shadow"  />
+            <div>
+              <p class="font-semibold">Ced-NeRF: A Compact and Efficient Method for Dynamic Neural Radiance Fields</p>
+              <strong>Youtian Lin</strong>
+              <p class="italic text-sm">AAAI 2024</p>
+              <div class="flex gap-4 mt-2 text-slate-600 dark:text-slate-400">
+                  <!-- <a href="https://nju-3dv.github.io/projects/Relightable3DGaussian/" target="_blank" class="flex items-center gap-1 text-indigo-600 hover:underline"><svg class="icon"><use href="#icon-arrow" /></svg></a> -->
+                  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28138/28279" target="_blank" title="Paper PDF"><svg class="icon"><use href="#icon-paper" /></svg></a>
+                  <a href="https://github.com/Linyou/Ced-NeRF" target="_blank" title="GitHub"><svg class="icon"><use href="#icon-github" /></svg></a>
+              </div>
+            </div>
+        </li>
+
+      </ol>
+      <p class="text-sm text-slate-500 dark:text-slate-400"><span class="lang-en">Full list on </span><span class="lang-zh">更多论文见 </span><a href="https://scholar.google.com/citations?hl=zh-CN&user=VhhHLhIAAAAJ" class="underline hover:text-indigo-500" target="_blank">Google Scholar</a>.</p>
+    </section>
+
+    <!-- ===================== Community Service ===================== -->
+    <section id="service" class="space-y-6">
+      <h2 class="text-3xl font-bold border-b-4 border-emerald-500 inline-block pb-1"><span class="lang-en">Community Service</span><span class="lang-zh">社区服务</span></h2>
+      <ul class="list-disc pl-6 space-y-3 text-lg">
+        <li><span class="lang-en">Reviewer – SIGGRAPH Asia, ICCV, NeurIPS, ICLR, ICASSP</span><span class="lang-zh">会议审稿 – SIGGRAPH Asia、ICCV、NeurIPS、ICLR、ICASSP</span></li>
+      </ul>
+    </section>
+
+    <!-- ===================== Open‑Source Projects ===================== -->
+    <section id="projects" class="space-y-6">
+      <h2 class="text-3xl font-bold border-b-4 border-yellow-500 inline-block pb-1"><span class="lang-en">Open‑Source Projects</span><span class="lang-zh">开源项目</span></h2>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <!-- Pointrix -->
+        <a href="https://github.com/pointrix-project/pointrix" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg">Pointrix</h3>
+          <p class="mt-2 text-sm lang-en">Differentiable point‑based rendering library.</p>
+          <p class="mt-2 text-sm lang-zh">可微点渲染库。</p>
+        </a>
+        <!-- threestudio‑3DGS -->
+        <a href="https://github.com/DSaurus/threestudio-3dgs" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg">threestudio‑3DGS</h3>
+          <p class="mt-2 text-sm lang-en">Gaussian Splatting extension for threestudio.</p>
+          <p class="mt-2 text-sm lang-zh">threestudio 的 Gaussian Splatting 扩展。</p>
+        </a>
+        <!-- taichi‑nerfs -->
+        <a href="https://github.com/taichi-dev/taichi-nerfs" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg">taichi‑nerfs</h3>
+          <p class="mt-2 text-sm lang-en">Taichi + PyTorch Instant‑NGP training pipeline.</p>
+          <p class="mt-2 text-sm lang-zh">基于 Taichi + PyTorch 的 Instant‑NGP 训练管线。</p>
+        </a>
+        <!-- taichi‑ngp‑renderer -->
+        <a href="https://github.com/Linyou/taichi-ngp-renderer" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg">taichi‑ngp‑renderer</h3>
+          <p class="mt-2 text-sm lang-en">Instant‑NGP renderer in pure Python.</p>
+          <p class="mt-2 text-sm lang-zh">纯 Python 实现的 Instant‑NGP 渲染器。</p>
+        </a>
+        <!-- nerfacc -->
+        <a href=https://github.com/nerfstudio-project/nerfacc" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg">nerfacc</h3>
+          <p class="mt-2 text-sm lang-en">Fast NeRF acceleration toolkit (contributor).</p>
+          <p class="mt-2 text-sm lang-zh">快速 NeRF 加速工具箱（贡献者）。</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== Footer ===================== -->
+  <footer class="bg-slate-200 dark:bg-slate-800 py-6">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
+      <p>© 2025 Youtian Lin</p>
+      <div class="flex gap-6 items-center text-xl">
+        <!-- Email -->
+        <a href="mailto:linyoutian.loyot@gmail.com" aria-label="Email" class="hover:text-indigo-600 transition">
+            <svg class="w-5 h-5 icon" viewBox="0 0 24 24" fill="currentColor">
+                <!-- outer rectangle -->
+                <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                <!-- flap -->
+                <polyline points="3 7 12 13 21 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+        </a>
+      
+        <!-- Google Scholar -->
+        <a href="https://scholar.google.com/citations?hl=zh-CN&user=VhhHLhIAAAAJ" target="_blank"
+           aria-label="Google Scholar" class="hover:text-indigo-600 transition">
+          <svg class="w-5 h-5 icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2 3 9l9 7 9-7-9-7zm0 11.3-6-4.7 6-4.7 6 4.7-6 4.7z"/>
+            <path d="M4 13v5l8 4 8-4v-5l-8 5-8-5z"/>
+          </svg>
+        </a>
+      
+        <!-- Twitter -->
+        <a href="https://twitter.com/linyoutian2" target="_blank"
+           aria-label="Twitter" class="hover:text-indigo-600 transition">
+          <svg class="w-5 h-5 icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22.46 6c-.77.35-1.6.59-2.46.7a4.29 4.29 0 0 0 1.88-2.37 8.55 8.55 0 0 1-2.72 1.04 4.26 4.26 0 0 0-7.26 3.88A12.09 12.09 0 0 1 3.15 4.9a4.25 4.25 0 0 0 1.32 5.68 4.24 4.24 0 0 1-1.93-.53v.06a4.27 4.27 0 0 0 3.42 4.18 4.32 4.32 0 0 1-1.92.07 4.27 4.27 0 0 0 3.98 2.96A8.57 8.57 0 0 1 2 19.55a12.07 12.07 0 0 0 6.55 1.92c7.86 0 12.17-6.51 12.17-12.17 0-.19 0-.38-.01-.57A8.7 8.7 0 0 0 24 5.22a8.48 8.48 0 0 1-2.54.7z"/>
+          </svg>
+        </a>
+      
+        <!-- GitHub -->
+        <a href="https://github.com/Linyou" target="_blank"
+           aria-label="GitHub" class="hover:text-indigo-600 transition">
+          <svg class="w-5 h-5 icon" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd"
+                  d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.39 7.86 10.91.57.11.8-.25.8-.56
+                     0-.28-.01-1.19-.02-2.16-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68
+                     -1.05-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96
+                     .1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09
+                     -.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18.91-.25 1.88-.38 2.87-.38.98 0 1.96.13
+                     2.87.38 2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83
+                     1.18 3.09 0 4.42-2.69 5.4-5.26 5.68.41.36.79 1.1.79 2.22 0 1.6-.02 2.9-.02 3.29
+                     0 .31.21.67.8.56C20.71 21.39 24 17.08 24 12 24 5.65 18.35.5 12 .5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== Language Toggle Script ===================== -->
+  <script>
+    const root = document.documentElement;
+    const toggleBtn = document.getElementById('lang-toggle');
+    const saved = localStorage.getItem('page-lang');
+    if (saved) {
+      root.dataset.lang = saved;
+      toggleBtn.textContent = saved === 'en' ? '中文' : 'EN';
+    }
+    toggleBtn.addEventListener('click', () => {
+      const next = root.dataset.lang === 'en' ? 'zh' : 'en';
+      root.dataset.lang = next;
+      toggleBtn.textContent = next === 'en' ? '中文' : 'EN';
+      localStorage.setItem('page-lang', next);
+    });
+  </script>
+</div>
 </body>
 </html>
