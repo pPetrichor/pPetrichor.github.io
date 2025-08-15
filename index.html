@@ -6,10 +6,22 @@
   <title>Youtian Lin – Academic Personal Page</title>
   <!-- Tailwind CSS CDN (replace with self‑hosted build for production) -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
   <style>
-    body { font-family: 'Inter', sans-serif; }
-    html { scroll-behavior: smooth; }
+    body { 
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    html { 
+      scroll-behavior: smooth;
+      font-size: 15px;
+    }
     [data-lang='en'] .lang-zh { display: none; }
     [data-lang='zh'] .lang-en { display: none; }
     /* Icon size helper */
@@ -20,11 +32,87 @@
         margin-left: auto;   /* centre when room */
         margin-right: auto;
     }
+    /* Enhanced typography */
+    h1 { 
+      font-weight: 700; 
+      line-height: 1.2; 
+      letter-spacing: -0.02em;
+    }
+    h2 { 
+      font-weight: 600; 
+      line-height: 1.3; 
+      letter-spacing: -0.01em;
+    }
+    h3 { 
+      font-weight: 600; 
+      line-height: 1.4;
+    }
+    p { 
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    .text-lg { 
+      line-height: 1.8;
+    }
+    
+    /* Modern color scheme */
     .herfo-text {
-        color:rgba(0, 179, 255, 0.978)
+        color: rgb(59, 130, 246);
+        transition: color 0.3s ease;
+    }
+    .herfo-text:hover {
+        color: rgb(37, 99, 235);
     }
     .hrefo-paper {
-        color:rgba(76, 84, 88, 0.743)
+        color: rgb(100, 116, 139);
+        transition: color 0.3s ease;
+    }
+    .hrefo-paper:hover {
+        color: rgb(71, 85, 105);
+    }
+    
+    /* Smooth animations */
+    * {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    /* Enhanced shadows and effects */
+    .shadow-enhanced {
+      box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .dark .shadow-enhanced {
+      box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.25) !important;
+    }
+    .shadow-enhanced:hover {
+      box-shadow: 0 20px 40px -4px rgba(0, 0, 0, 0.15), 0 8px 16px -4px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+    .dark .shadow-enhanced:hover {
+      box-shadow: 0 20px 40px -4px rgba(0, 0, 0, 0.6), 0 8px 16px -4px rgba(0, 0, 0, 0.4) !important;
+    }
+    
+    /* Modern gradient backgrounds */
+    .bg-gradient-modern {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .bg-gradient-card {
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.95));
+      border: 1px solid rgba(226, 232, 240, 0.8);
+    }
+    .dark .bg-gradient-card {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.95)) !important;
+      border: 1px solid rgba(51, 65, 85, 0.8) !important;
+    }
+    
+    /* Enhanced buttons */
+    .btn-modern {
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease;
+    }
+    .btn-modern:hover {
+      background: rgba(0, 0, 0, 0.7);
+      transform: translateY(-1px);
     }
     html {
         font-size: 14px;     /* 15 px base instead of Tailwind’s 16 px */
@@ -66,16 +154,20 @@
     <!-- ====================================================== -->
   <!-- ===================== Hero ===================== -->
   <header class="relative page-wrapper">
-    <!-- Gradient overlay -->
-    <div class="absolute inset-0 opacity-80">
-      <img src="images/teaserv6.jpg" alt="Rendering"/>
+    <!-- Enhanced gradient overlay -->
+    <div class="absolute inset-0">
+      <img src="images/teaserv6.jpg" alt="Rendering" class="w-full h-full object-cover"/>
+      <div class="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/50"></div>
     </div>
 
     <!-- Profile photo -->
     <img src="images/head.png" alt="Youtian Lin" class="absolute z-10 top-8 left-8 w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"  />
 
-    <!-- Language toggle -->
-    <button id="lang-toggle" class="absolute z-20 top-6 right-6 px-4 py-2 rounded-full bg-black/50 text-sm font-semibold shadow hover:bg-black">中文</button>
+    <!-- Control buttons -->
+    <div class="absolute z-20 top-6 right-6 flex gap-3">
+      <button id="theme-toggle" class="px-4 py-2 rounded-full btn-modern bg-black/40 text-white text-sm font-semibold shadow-lg hover:bg-black/60 backdrop-blur-md transition-all duration-300">🌙</button>
+      <button id="lang-toggle" class="px-4 py-2 rounded-full btn-modern bg-black/40 text-white text-sm font-semibold shadow-lg hover:bg-black/60 backdrop-blur-md">中文</button>
+    </div>
 
     <!-- Hero text -->
     <div class="relative z-10 max-w-5xl mx-auto px-6 py-40 text-center">
@@ -88,24 +180,24 @@
         <span class="lang-zh">博士研究生 • 计算机视觉与图形学 • 南京大学 NJU‑3DV 实验室</span>
       </p>
       <nav class="mt-10 flex flex-wrap justify-center gap-6 text-slate-200/90 text-lg font-extrabold drop-shadow">
-        <a href="#intro" class="hover:text-white"><span class="lang-en">About</span><span class="lang-zh">简介</span></a>
-        <a href="#research" class="hover:text-white"><span class="lang-en">Research</span><span class="lang-zh">研究方向</span></a>
-        <a href="#news" class="hover:text-white"><span class="lang-en">News</span><span class="lang-zh">动态</span></a>
-        <a href="#publications" class="hover:text-white"><span class="lang-en">Publications</span><span class="lang-zh">论文</span></a>
-        <a href="#service" class="hover:text-white"><span class="lang-en">Service</span><span class="lang-zh">服务</span></a>
-        <a href="#projects" class="hover:text-white"><span class="lang-en">Projects</span><span class="lang-zh">项目</span></a>
+        <a href="#intro" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"><span class="lang-en">About</span><span class="lang-zh">简介</span></a>
+        <a href="#research" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"><span class="lang-en">Research</span><span class="lang-zh">研究方向</span></a>
+        <a href="#news" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"><span class="lang-en">News</span><span class="lang-zh">动态</span></a>
+        <a href="#publications" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"><span class="lang-en">Publications</span><span class="lang-zh">论文</span></a>
+        <a href="#service" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"><span class="lang-en">Service</span><span class="lang-zh">服务</span></a>
+        <a href="#projects" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"><span class="lang-en">Projects</span><span class="lang-zh">项目</span></a>
       </nav>
     </div>
   </header>
   <div class="page-wrapper">
-  <main class="max-w-5xl mx-auto px-6 py-0 pb-16 space-y-24">
+  <main class="max-w-5xl mx-auto px-6 pt-16 pb-16 space-y-24">
     <!-- ===================== Intro ===================== -->
     <section id="intro" class="space-y-4">
-      <h2 class="text-3xl font-bold border-b-4 border-indigo-500 inline-block pb-1"><span class="lang-en">Brief Introduction</span><span class="lang-zh">简介</span></h2>
+      <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Brief Introduction</span><span class="lang-zh">简介</span></h2>
       <p class="text-lg lang-en">I am a first-year Ph.D. student at <a href="https://www.nju.edu.cn/en/" class="herfo-text">Nanjing University</a>, supervised by <a href="https://yoyo000.github.io/index.html" class="herfo-text">Prof. Yao Yao</a>, <a href="https://cite.nju.edu.cn">Prof. Xun Cao</a> and <a href="https://is.nju.edu.cn/ttn_en/main.htm" class="herfo-text">Prof. Tieniu Tan</a>. Previously, I pursued a Ph.D. at the <a href="https://www.hit.edu.cn" class="herfo-text">Harbin Institute of Technology</a>. I earned my M.S. from the <a href="https://english.hrbeu.edu.cn" class="herfo-text">Harbin Engineering University</a> in 2021, where I was advised by <a href="https://www.researchgate.net/profile/Jian-Guan-24" class="herfo-text">Prof. Jian Guan</a>.</p>
-      <p class="text-lg lang-zh">我目前是 <a href="https://www.nju.edu.cn/en/" class="herfo-text">南京大学</a> 博士一年级学生，导师为 <a href="https://yoyo000.github.io/index.html" class="herfo-text">姚遥教授</a>， 并由<a href="https://cite.nju.edu.cn">曹汛教授</a>和 <a href="https://is.nju.edu.cn/ttn_en/main.htm" class="herfo-text">谭铁牛教授</a>联合指导。之前在 <a href="https://www.hit.edu.cn" class="herfo-text">哈尔滨工业大学</a> 攻读博士学位。2021 年获得 <a href="https://english.hrbeu.edu.cn" class="herfo-text">哈尔滨工程大学</a> 硕士学位，导师<a href="https://www.researchgate.net/profile/Jian-Guan-24" class="herfo-text">关健教授</a>。</p>
+      <p class="text-lg lang-zh">我目前就读于 <a href="https://www.nju.edu.cn/en/" class="herfo-text">南京大学</a>，师从 <a href="https://yoyo000.github.io/index.html" class="herfo-text">姚遥教授</a>，并在 <a href="https://cite.nju.edu.cn">曹汛教授</a> 和 <a href="https://is.nju.edu.cn/ttn_en/main.htm" class="herfo-text">谭铁牛教授</a> 的联合指导下攻读博士学位。此前曾在 <a href="https://www.hit.edu.cn" class="herfo-text">哈尔滨工业大学</a> 学习。2021年于 <a href="https://english.hrbeu.edu.cn" class="herfo-text">哈尔滨工程大学</a> 获得硕士学位，导师为 <a href="https://www.researchgate.net/profile/Jian-Guan-24" class="herfo-text">关健教授</a>。</p>
       <p class="text-lg lang-en">I’m currently a research intern at DreamTech. Previously, I worked at leading 3D generation startups Taichi (Meshy AI) and VAST (Tripo AI), where I contributed to their early 3D generation breakthroughs.</p>
-      <p class="text-lg lang-zh">我目前是 DreamTech 的研究实习生。此前，我曾在领先的 3D 生成初创公司 Taichi（Meshy AI）和 VAST（Tripo AI）工作，参与并推动了它们早期在 3D 生成方面的技术突破。</p>
+      <p class="text-lg lang-zh">目前在 DreamTech 担任研究实习生。曾就职于顶尖的 3D 生成初创公司 Taichi（Meshy AI）和 VAST（Tripo AI），参与其早期 3D 生成技术的研发与突破。</p>
       <!-- <p class="text-lg lang-zh">我目前是 <strong>南京大学智能科学与技术学院</strong> 博士一年级学生，导师为姚遥教授和谭铁牛教授，研究方向为 <em>3D/4D 场景重建与生成</em> 以及高性能神经渲染。2021 年获得哈尔滨工程大学硕士学位，导师关健教授。</p> -->
       <!-- <p class="text-lg lang-en">In summer 2025, I will intern with Apple 3D Vision in Hong Kong.</p>
       <p class="text-lg lang-zh">2025 年夏，将前往香港 Apple 3D Vision 团队实习。</p> -->
@@ -113,7 +205,7 @@
 
     <!-- ===================== Research Interests ===================== -->
     <section id="research" class="space-y-6">
-      <h2 class="text-3xl font-bold border-b-4 border-purple-500 inline-block pb-1"><span class="lang-en">Research Interests</span><span class="lang-zh">研究方向</span></h2>
+      <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Research Interests</span><span class="lang-zh">研究方向</span></h2>
       <!-- <ul class="list-disc pl-6 space-y-3 text-lg">
         <li><span class="lang-en">Neural & hybrid methods for <strong>3D/4D dynamic scene reconstruction</strong></span><span class="lang-zh">面向 <strong>3D/4D 动态场景重建</strong> 的神经与混合方法</span></li>
         <li><span class="lang-en">Real‑time <strong>neural rendering</strong> and <strong>Gaussian Splatting</strong></span><span class="lang-zh">实时 <strong>神经渲染</strong> 与 <strong>Gaussian Splatting</strong></span></li>
@@ -121,15 +213,15 @@
         <li><span class="lang-en">High‑performance GPU pipelines (CUDA / Vulkan)</span><span class="lang-zh">高性能 GPU 管线（CUDA / Vulkan）</span></li>
       </ul> -->
       <p class="text-lg lang-en">My research interests are in computer vision and graphics, with a particular focus on 3D and 4D reconstruction and generation. I am also exploring recent advances in neural rendering and generative models. My work aims to reconstruct and synthesize realistic representations of the physical world.</p>
-      <p class="text-lg lang-zh">我的研究兴趣主要集中在计算机视觉与图形学，特别关注3D和4D的重建与生成。我还在探索神经渲染和生成模型的最新进展。我的研究致力于重建和合成物理世界的真实表征。</p>
+      <p class="text-lg lang-zh">我的研究领域为计算机视觉与图形学，专注于3D和4D场景的重建与生成技术。同时深入探索神经渲染和生成式模型的前沿发展，致力于构建物理世界的真实数字表征。</p>
 
      <p class="text-lg lang-en">I'm also interested in high-performance GPU and Graphic programming, including CUDA and Vulkan (also kind of knowing OpenGL and Metal).</p>
-      <p class="text-lg lang-zh">我也对高性能 GPU 和图形编程感兴趣，包括 CUDA 和 Vulkan（也了解 OpenGL 和 Metal）。</p>
+      <p class="text-lg lang-zh">同时热衷于高性能GPU计算和图形编程，熟悉CUDA、Vulkan等技术栈（亦掌握OpenGL和Metal开发）。</p>
     </section>
 
     <!-- ===================== News ===================== -->
     <section id="news" class="space-y-6">
-      <h2 class="text-3xl font-bold border-b-4 border-pink-500 inline-block pb-1"><span class="lang-en">Recent News</span><span class="lang-zh">最新动态</span></h2>
+      <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Recent News</span><span class="lang-zh">最新动态</span></h2>
       <ul class="space-y-4 text-lg">
         <li><span class="font-semibold">2025‑07-05</span> – <span class="lang-en"> Align Your Rhythm is accepted to ICCV 2025.</span><span class="lang-zh">Align Your Rhythm 被 ICCV 2025 接收。</span></li>
         <li><span class="font-semibold">2025‑05‑29</span> – <span class="lang-en"> New work release: Direct3D-S2.</span><span class="lang-zh">Direct3D-S2 发布。</span></li>
@@ -141,12 +233,12 @@
 
     <!-- ===================== Publications ===================== -->
     <section id="publications" class="space-y-6">
-      <h2 class="text-3xl font-bold border-b-4 border-indigo-500 inline-block pb-1"><span class="lang-en">Selected Publications</span><span class="lang-zh">论文发表</span></h2>
+      <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Selected Publications</span><span class="lang-zh">论文发表</span></h2>
       <ol class="space-y-10 relative border-l-2 border-slate-300 dark:border-slate-600 pl-6">
         <!-- === FastDrag -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-          <img src="images/alignRhythm.png" alt="Align Your Rhythm" class="w-48 h-35 bg-white object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/alignRhythm.png" alt="Align Your Rhythm" class="w-48 h-35 bg-white object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation</p>
             <a href="" class="hrefo-paper">Congyi Fan</a>,
@@ -167,9 +259,9 @@
         </li>
 
         <!-- === Flow Distillation Sampling === -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500 rounded-full"></span>
-          <img src="images/teaserv6.jpg" alt="Flow Distillation Sampling" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/teaserv6.jpg" alt="Flow Distillation Sampling" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention</p>
             <a href="https://linzhuo.xyz" class="hrefo-paper">Shuang Wu</a> *</sup>,
@@ -193,9 +285,9 @@
         </li>
 
         <!-- === Flow Distillation Sampling === -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500 rounded-full"></span>
-          <img src="images/fds.png" alt="Flow Distillation Sampling" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/fds.png" alt="Flow Distillation Sampling" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">Flow Distillation Sampling: Regularizing 3D Gaussians with Pre‑trained Matching Priors</p>
             <a href="https://linzhuo.xyz" class="hrefo-paper">Lin-Zhuo Chen</a> *</sup>,
@@ -215,9 +307,9 @@
         </li>
 
         <!-- === Direct3D -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-          <img src="images/direct3d.png" alt="Direct3D" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/direct3d.png" alt="Direct3D" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">Direct3D: Scalable Image‑to‑3D Generation via 3D Latent Diffusion Transformer</p>
             <a href="https://scholar.google.it/citations?user=SN8J78EAAAAJ&hl=zh-CN" class="hrefo-paper">Shuang Wu*</a>,
@@ -238,9 +330,9 @@
         </li>
 
         <!-- === FastDrag -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-          <img src="images/fastdrag.png" alt="FastDrag" class="w-48 h-35 bg-white object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/fastdrag.png" alt="FastDrag" class="w-48 h-35 bg-white object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">FastDrag: Manipulate Anything in One Step</p>
             <a href="" class="hrefo-paper">Xuanjia Zhao</a>,
@@ -260,9 +352,9 @@
         </li>
 
         <!-- === STAG4D -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-          <img src="images/stag4d.png" alt="STAG4D" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/stag4d.png" alt="STAG4D" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">STAG4D: Spatial‑Temporal Anchored Generative 4D Gaussians</p>
             <a href="https://github.com/zeng-yifei" class="hrefo-paper">Yifei Zeng*</a>,
@@ -284,9 +376,9 @@
         </li>
 
         <!-- === Gaussian‑Flow -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-          <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-          <img src="images/gaussian-flow.png" alt="Gaussian‑Flow" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+          <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+          <img src="images/gaussian-flow.png" alt="Gaussian‑Flow" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
             <p class="font-semibold">Gaussian‑Flow: 4D Reconstruction with Dynamic 3D Gaussian Particles</p>
             <strong>Youtian Lin</strong>,
@@ -302,9 +394,9 @@
           </div>
         </li>
 
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-            <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-            <img src="images/brdf-3dgs-2.png" alt="Relightable-3DGS" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+            <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+            <img src="images/brdf-3dgs-2.png" alt="Relightable-3DGS" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
             <div>
               <p class="font-semibold">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</p>
               <a href="https://ygaojiany.github.io" class="hrefo-paper">Jian Gao</a>,
@@ -323,9 +415,9 @@
             </div>
         </li>
 
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-            <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-            <img src="images/unidream-1.png" alt="UniDream" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+            <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+            <img src="images/unidream-1.png" alt="UniDream" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
             <div>
               <p class="font-semibold">UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation</p>
               <a href="https://scholar.google.co.jp/citations?hl=zh-CN&user=bkPJckwAAAAJ" class="hrefo-paper">Zexiang Liu*</a>,
@@ -347,9 +439,9 @@
             </div>
         </li>
 
-        <li class="flex flex-col sm:flex-row gap-6 items-start">
-            <span class="absolute -left-3 top-8 w-2.5 h-2.5 bg-indigo-500"></span>
-            <img src="images/ced-nerf2.png" alt="Ced-NeRF" class="w-48 h-35 object-cover rounded-lg shadow"  />
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+            <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
+            <img src="images/ced-nerf2.png" alt="Ced-NeRF" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
             <div>
               <p class="font-semibold">Ced-NeRF: A Compact and Efficient Method for Dynamic Neural Radiance Fields</p>
               <strong>Youtian Lin</strong>
@@ -368,7 +460,7 @@
 
     <!-- ===================== Community Service ===================== -->
     <section id="service" class="space-y-6">
-      <h2 class="text-3xl font-bold border-b-4 border-emerald-500 inline-block pb-1"><span class="lang-en">Community Service</span><span class="lang-zh">社区服务</span></h2>
+      <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Community Service</span><span class="lang-zh">社区服务</span></h2>
       <ul class="list-disc pl-6 space-y-3 text-lg">
         <li><span class="lang-en">Reviewer – SIGGRAPH Asia, ICCV, NeurIPS, ICLR, ICASSP</span><span class="lang-zh">会议审稿 – SIGGRAPH Asia、ICCV、NeurIPS、ICLR、ICASSP</span></li>
       </ul>
@@ -376,34 +468,34 @@
 
     <!-- ===================== Open‑Source Projects ===================== -->
     <section id="projects" class="space-y-6">
-      <h2 class="text-3xl font-bold border-b-4 border-yellow-500 inline-block pb-1"><span class="lang-en">Open‑Source Projects</span><span class="lang-zh">开源项目</span></h2>
+      <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Open‑Source Projects</span><span class="lang-zh">开源项目</span></h2>
       <div class="grid sm:grid-cols-2 gap-6">
         <!-- Pointrix -->
-        <a href="https://github.com/pointrix-project/pointrix" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+        <a href="https://github.com/pointrix-project/pointrix" target="_blank" class="block p-6 bg-gradient-card rounded-xl shadow-enhanced transition-all duration-300 hover:scale-105">
           <h3 class="font-semibold text-lg">Pointrix</h3>
           <p class="mt-2 text-sm lang-en">Differentiable point‑based rendering library.</p>
           <p class="mt-2 text-sm lang-zh">可微点渲染库。</p>
         </a>
         <!-- threestudio‑3DGS -->
-        <a href="https://github.com/DSaurus/threestudio-3dgs" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+        <a href="https://github.com/DSaurus/threestudio-3dgs" target="_blank" class="block p-6 bg-gradient-card rounded-xl shadow-enhanced transition-all duration-300 hover:scale-105">
           <h3 class="font-semibold text-lg">threestudio‑3DGS</h3>
           <p class="mt-2 text-sm lang-en">Gaussian Splatting extension for threestudio.</p>
           <p class="mt-2 text-sm lang-zh">threestudio 的 Gaussian Splatting 扩展。</p>
         </a>
         <!-- taichi‑nerfs -->
-        <a href="https://github.com/taichi-dev/taichi-nerfs" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+        <a href="https://github.com/taichi-dev/taichi-nerfs" target="_blank" class="block p-6 bg-gradient-card rounded-xl shadow-enhanced transition-all duration-300 hover:scale-105">
           <h3 class="font-semibold text-lg">taichi‑nerfs</h3>
           <p class="mt-2 text-sm lang-en">Taichi + PyTorch Instant‑NGP training pipeline.</p>
           <p class="mt-2 text-sm lang-zh">基于 Taichi + PyTorch 的 Instant‑NGP 训练管线。</p>
         </a>
         <!-- taichi‑ngp‑renderer -->
-        <a href="https://github.com/Linyou/taichi-ngp-renderer" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+        <a href="https://github.com/Linyou/taichi-ngp-renderer" target="_blank" class="block p-6 bg-gradient-card rounded-xl shadow-enhanced transition-all duration-300 hover:scale-105">
           <h3 class="font-semibold text-lg">taichi‑ngp‑renderer</h3>
           <p class="mt-2 text-sm lang-en">Instant‑NGP renderer in pure Python.</p>
           <p class="mt-2 text-sm lang-zh">纯 Python 实现的 Instant‑NGP 渲染器。</p>
         </a>
         <!-- nerfacc -->
-        <a href="https://github.com/nerfstudio-project/nerfacc" target="_blank" class="block p-6 bg-white/90 dark:bg-slate-800/80 rounded-xl shadow hover:shadow-lg transition">
+        <a href="https://github.com/nerfstudio-project/nerfacc" target="_blank" class="block p-6 bg-gradient-card rounded-xl shadow-enhanced transition-all duration-300 hover:scale-105">
           <h3 class="font-semibold text-lg">nerfacc</h3>
           <p class="mt-2 text-sm lang-en">Fast NeRF acceleration toolkit (contributor).</p>
           <p class="mt-2 text-sm lang-zh">快速 NeRF 加速工具箱（贡献者）。</p>
@@ -463,20 +555,37 @@
     </div>
   </footer>
 
-  <!-- ===================== Language Toggle Script ===================== -->
+  <!-- ===================== Toggle Scripts ===================== -->
   <script>
+    // Language toggle
     const root = document.documentElement;
-    const toggleBtn = document.getElementById('lang-toggle');
-    const saved = localStorage.getItem('page-lang');
-    if (saved) {
-      root.dataset.lang = saved;
-      toggleBtn.textContent = saved === 'en' ? '中文' : 'EN';
+    const langToggleBtn = document.getElementById('lang-toggle');
+    const savedLang = localStorage.getItem('page-lang');
+    if (savedLang) {
+      root.dataset.lang = savedLang;
+      langToggleBtn.textContent = savedLang === 'en' ? '中文' : 'EN';
     }
-    toggleBtn.addEventListener('click', () => {
+    langToggleBtn.addEventListener('click', () => {
       const next = root.dataset.lang === 'en' ? 'zh' : 'en';
       root.dataset.lang = next;
-      toggleBtn.textContent = next === 'en' ? '中文' : 'EN';
+      langToggleBtn.textContent = next === 'en' ? '中文' : 'EN';
       localStorage.setItem('page-lang', next);
+    });
+
+    // Theme toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const savedTheme = localStorage.getItem('page-theme');
+    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+      themeToggleBtn.textContent = '☀️';
+    } else {
+      themeToggleBtn.textContent = '🌙';
+    }
+    
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      themeToggleBtn.textContent = isDark ? '☀️' : '🌙';
+      localStorage.setItem('page-theme', isDark ? 'dark' : 'light');
     });
   </script>
 </div>
