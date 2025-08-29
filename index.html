@@ -117,6 +117,160 @@
     html {
         font-size: 14px;     /* 15 px base instead of Tailwind’s 16 px */
     }
+    
+    /* Representative Work Highlight Styles */
+    .representative-work {
+      position: relative;
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.95));
+      border: 3px solid transparent;
+      background-clip: padding-box;
+      overflow: hidden;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3), 
+                  0 8px 32px rgba(59, 130, 246, 0.25),
+                  0 4px 16px rgba(59, 130, 246, 0.15),
+                  inset 0 2px 0 rgba(255, 255, 255, 0.8);
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+    .representative-work::before {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      padding: 3px;
+      background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #f59e0b, #10b981, #3b82f6);
+      background-size: 400% 400%;
+      border-radius: inherit;
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      mask-composite: exclude;
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      animation: gradientShift 2s ease infinite;
+      z-index: -1;
+      opacity: 0.9;
+    }
+    .representative-work::after {
+      content: "🏆 Representative Work";
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6), 
+                  0 3px 8px rgba(0, 0, 0, 0.2),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.4),
+                  0 0 20px rgba(59, 130, 246, 0.4);
+      z-index: 10;
+      backdrop-filter: blur(15px);
+      animation: badgePulse 3s ease-in-out infinite;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    .dark .representative-work {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.95)) !important;
+      box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.4), 
+                  0 8px 32px rgba(79, 70, 229, 0.3),
+                  0 4px 16px rgba(79, 70, 229, 0.2),
+                  inset 0 2px 0 rgba(255, 255, 255, 0.1) !important;
+    }
+    .dark .representative-work::after {
+      background: linear-gradient(45deg, #4f46e5, #7c3aed, #ec4899);
+      box-shadow: 0 6px 20px rgba(79, 70, 229, 0.7), 
+                  0 3px 8px rgba(0, 0, 0, 0.4),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.2),
+                  0 0 20px rgba(79, 70, 229, 0.5);
+    }
+    .representative-work:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5), 
+                  0 20px 60px rgba(59, 130, 246, 0.4),
+                  0 10px 30px rgba(0, 0, 0, 0.2),
+                  inset 0 3px 0 rgba(255, 255, 255, 0.9),
+                  0 0 40px rgba(59, 130, 246, 0.3);
+      animation: none;
+    }
+    .dark .representative-work:hover {
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.6), 
+                  0 20px 60px rgba(79, 70, 229, 0.5),
+                  0 10px 30px rgba(0, 0, 0, 0.5),
+                  inset 0 3px 0 rgba(255, 255, 255, 0.15),
+                  0 0 40px rgba(79, 70, 229, 0.4) !important;
+    }
+    .representative-work:hover::after {
+      transform: scale(1.1);
+      box-shadow: 0 8px 25px rgba(59, 130, 246, 0.8), 
+                  0 4px 12px rgba(0, 0, 0, 0.3),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.5),
+                  0 0 30px rgba(59, 130, 246, 0.6);
+      animation: none;
+    }
+    .dark .representative-work:hover::after {
+      box-shadow: 0 8px 25px rgba(79, 70, 229, 0.9), 
+                  0 4px 12px rgba(0, 0, 0, 0.5),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.3),
+                  0 0 30px rgba(79, 70, 229, 0.7);
+    }
+    
+    @keyframes pulseGlow {
+      0%, 100% {
+        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3), 
+                    0 8px 32px rgba(59, 130, 246, 0.25),
+                    0 4px 16px rgba(59, 130, 246, 0.15),
+                    inset 0 2px 0 rgba(255, 255, 255, 0.8);
+      }
+      50% {
+        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5), 
+                    0 12px 40px rgba(59, 130, 246, 0.35),
+                    0 6px 20px rgba(59, 130, 246, 0.25),
+                    inset 0 2px 0 rgba(255, 255, 255, 0.9);
+      }
+    }
+    
+    .dark .representative-work {
+      animation: pulseGlowDark 4s ease-in-out infinite;
+    }
+    
+    @keyframes pulseGlowDark {
+      0%, 100% {
+        box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.4), 
+                    0 8px 32px rgba(79, 70, 229, 0.3),
+                    0 4px 16px rgba(79, 70, 229, 0.2),
+                    inset 0 2px 0 rgba(255, 255, 255, 0.1);
+      }
+      50% {
+        box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.6), 
+                    0 12px 40px rgba(79, 70, 229, 0.4),
+                    0 6px 20px rgba(79, 70, 229, 0.3),
+                    inset 0 2px 0 rgba(255, 255, 255, 0.15);
+      }
+    }
+    
+    @keyframes badgePulse {
+      0%, 100% {
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6), 
+                    0 3px 8px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+                    0 0 20px rgba(59, 130, 246, 0.4);
+      }
+      50% {
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.8), 
+                    0 4px 12px rgba(0, 0, 0, 0.3),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+                    0 0 30px rgba(59, 130, 246, 0.6);
+      }
+    }
+    
+    @keyframes gradientShift {
+      0%, 100% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+    }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100">
@@ -259,7 +413,7 @@
         </li>
 
         <!-- === Flow Distillation Sampling === -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced representative-work">
           <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
           <img src="images/teaserv6.jpg" alt="Flow Distillation Sampling" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
@@ -307,7 +461,7 @@
         </li>
 
         <!-- === Direct3D -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced representative-work">
           <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
           <img src="images/direct3d.png" alt="Direct3D" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
@@ -376,7 +530,7 @@
         </li>
 
         <!-- === Gaussian‑Flow -->
-        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced">
+        <li class="flex flex-col sm:flex-row gap-6 items-start p-6 bg-gradient-card rounded-xl shadow-enhanced representative-work">
           <span class="absolute -left-9 top-14 w-3 h-3 bg-indigo-500 rounded-full"></span>
           <img src="images/gaussian-flow.png" alt="Gaussian‑Flow" class="w-48 h-35 object-cover rounded-xl shadow-lg"  />
           <div>
@@ -462,7 +616,7 @@
     <section id="service" class="space-y-6">
       <h2 class="text-3xl font-bold border-b-4 border-slate-300 dark:border-slate-600 inline-block pb-1"><span class="lang-en">Community Service</span><span class="lang-zh">社区服务</span></h2>
       <ul class="list-disc pl-6 space-y-3 text-lg">
-        <li><span class="lang-en">Conference Reviewer – SIGGRAPH Asia, ICCV, NeurIPS, ICLR, ICASSP</span><span class="lang-zh">会议审稿 – SIGGRAPH Asia、ICCV、NeurIPS、ICLR、ICASSP</span></li>
+        <li><span class="lang-en">Conference Reviewer – SIGGRAPH Asia, ICCV, NeurIPS, ICLR, ICASSP, AAAI</span><span class="lang-zh">会议审稿 – SIGGRAPH Asia、ICCV、NeurIPS、ICLR、ICASSP、AAAI</span></li>
         <li><span class="lang-en">Journal Reviewer – TVCG, TCSVT</span><span class="lang-zh">期刊审稿 – TVCG、TCSVT</span></li>
       </ul>
     </section>
