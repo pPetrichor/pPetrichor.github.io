@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/publication/</link>
+      <atom:link href="https://huangjh-pub.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <title>Publications</title>
+      <link>https://huangjh-pub.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes</title>
+      <link>https://huangjh-pub.github.io/publication/storm/</link>
+      <pubDate>Mon, 30 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models</title>
+      <link>https://huangjh-pub.github.io/publication/infinicube/</link>
+      <pubDate>Thu, 05 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/infinicube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos</title>
+      <link>https://huangjh-pub.github.io/publication/btimer/</link>
+      <pubDate>Sat, 30 Nov 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/btimer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCube: Instant Large-Scale Scene Reconstruction using VoxSplats</title>
+      <link>https://huangjh-pub.github.io/publication/scube/</link>
+      <pubDate>Wed, 30 Oct 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/scube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OmniRe: Omni Urban Scene Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/omnire/</link>
+      <pubDate>Sun, 01 Sep 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/omnire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fVDB: A Deep-Learning Framework for Sparse, Large-Scale, and High-Performance Spatial Intelligence</title>
+      <link>https://huangjh-pub.github.io/publication/fvdb/</link>
+      <pubDate>Mon, 10 Jun 2024 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/fvdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies</title>
+      <link>https://huangjh-pub.github.io/publication/xcube/</link>
+      <pubDate>Thu, 01 Feb 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/xcube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximately Piecewise E(3) Equivariant Point Networks</title>
+      <link>https://huangjh-pub.github.io/publication/apen/</link>
+      <pubDate>Wed, 01 Nov 2023 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/apen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion</title>
+      <link>https://huangjh-pub.github.io/publication/diffacto/</link>
+      <pubDate>Tue, 01 Aug 2023 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/diffacto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Kernel Surface Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/nksr/</link>
+      <pubDate>Sat, 01 Apr 2023 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/nksr/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-kernel-surface-reconstruction-nksr-recovers-a-3d-surface-from-an-input-point-cloudtrained-directly-from-dense-points-our-method-reaches-state-of-the-art-reconstruction-quality-and-scalability-all-the-meshes-in-this-figure-are-reconstructed-using-a-single-trained-model&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Kernel Surface Reconstruction (**NKSR**) recovers a 3D surface from an input point cloud.Trained directly from dense points, our method reaches state-of-the-art reconstruction quality and scalability. All the meshes in this figure are reconstructed using a single trained model.&#34; srcset=&#34;
+               /publication/nksr/teaser_hu11977502561362367176.webp 400w,
+               /publication/nksr/teaser_hu15462419298449552027.webp 760w,
+               /publication/nksr/teaser_hu4375123196680593457.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/teaser_hu11977502561362367176.webp&#34;
+               width=&#34;1024&#34;
+               height=&#34;303&#34;
+               loading=&#34;lazy&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Kernel Surface Reconstruction (&lt;strong&gt;NKSR&lt;/strong&gt;) recovers a 3D surface from an input point cloud.Trained directly from dense points, our method reaches state-of-the-art reconstruction quality and scalability. All the meshes in this figure are reconstructed using a single trained model.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;We present a novel method for reconstructing a 3D implicit surface from a large-scale, sparse, and noisy point cloud.
+Our approach builds upon the recently introduced &lt;a href=&#34;https://nv-tlabs.github.io/nkf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neural Kernel Fields (NKF)&lt;/a&gt; representation.
+It enjoys similar generalization capabilities to NKF, while simultaneously addressing its main limitations:
+(a) We can scale to large scenes through compactly supported kernel functions, which enable the use of memory-efficient sparse linear solvers.
+(b) We are robust to noise, through a gradient fitting solve.
+(c) We minimize training requirements, enabling us to learn from any dataset of dense oriented points, and even mix training data consisting of objects and scenes at different scales.
+Our method is capable of reconstructing millions of points in a few seconds, and handling very large scenes in an out-of-core fashion.
+We achieve state-of-the-art results on reconstruction benchmarks consisting of &lt;a href=&#34;#single-objects&#34;&gt;single objects&lt;/a&gt;, &lt;a href=&#34;#indoor-scenes&#34;&gt;indoor scenes&lt;/a&gt;, and &lt;a href=&#34;#driving-scenes&#34;&gt;outdoor scenes&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/pipeline_hu8235135243793873527.webp 400w,
+               /publication/nksr/pipeline_hu16198759112181598668.webp 760w,
+               /publication/nksr/pipeline_hu7017550605840829364.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/pipeline_hu8235135243793873527.webp&#34;
+               width=&#34;1024&#34;
+               height=&#34;286&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Our method accepts an oriented point cloud and predicts a sparse hierarchy of voxel grids containing features as well as normals in each voxel.
+We then construct a sparse linear system and solve for a set of per-voxel coefficients $\alpha$.
+The linear system corresponds to the gram matrix arising from a kernel which depends on the predicted features, illustrated as $\mathbf{L}$ and $v$ above (described in the paper).
+To extract the predicted surface, we evaluate the function values at the voxel corners using a linear combination of the learned kernel basis functions, followed by dual marching cubes.
+Watch the explanatory &lt;a href=&#34;#explanatory-video&#34;&gt;video&lt;/a&gt; to gain more intuition of our method design.&lt;/p&gt;
+&lt;h3 id=&#34;qualitative-resutls&#34;&gt;Qualitative Resutls&lt;/h3&gt;
+&lt;p&gt;NKSR is accurate, generalizable and scalable.
+These three main properties are demonstrated using the following three types of datasets.&lt;/p&gt;
+&lt;h4 id=&#34;single-objects&#34;&gt;Single Objects&lt;/h4&gt;
+&lt;table style=&#34;table-layout: fixed ; width: 100%;&#34;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Input&lt;/th&gt;&lt;th&gt;POCO&lt;/th&gt;&lt;th&gt;Neural Kernel Field&lt;/th&gt;&lt;th&gt;Neural Galerkin&lt;/th&gt;&lt;th&gt;Ours (NKSR)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/p2s-1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/p2s-2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/snet-1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/snet-2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h4 id=&#34;indoor-scenes&#34;&gt;Indoor Scenes&lt;/h4&gt;
+&lt;p&gt;All the methods below are trained only on ShapeNet dataset and are directly tested on ScanNet and Matterport3D datasets.
+&lt;span style=&#34;color:Tomato&#34;&gt;Hover over&lt;/span&gt; each individual image to visualize the normal map.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th&gt;Neural Kernel Field&lt;/th&gt;
+          &lt;th&gt;POCO&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-lig_hu7029818343058974169.webp 400w,
+               /publication/nksr/room/1-lig_hu9737851831027818658.webp 760w,
+               /publication/nksr/room/1-lig_hu16872313211186123027.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-lig_hu7029818343058974169.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-lig-n_hu6682484172653526023.webp 400w,
+               /publication/nksr/room/1-lig-n_hu7863951066095299834.webp 760w,
+               /publication/nksr/room/1-lig-n_hu15400426849343535562.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-lig-n_hu6682484172653526023.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-nkf_hu10149455511063726700.webp 400w,
+               /publication/nksr/room/1-nkf_hu1052573469778882939.webp 760w,
+               /publication/nksr/room/1-nkf_hu11072507470989025230.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-nkf_hu10149455511063726700.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-nkf-n_hu1392049270643374200.webp 400w,
+               /publication/nksr/room/1-nkf-n_hu7316719276772342571.webp 760w,
+               /publication/nksr/room/1-nkf-n_hu4591394599921366092.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-nkf-n_hu1392049270643374200.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-poco_hu11534016283964472176.webp 400w,
+               /publication/nksr/room/1-poco_hu15917074749185292800.webp 760w,
+               /publication/nksr/room/1-poco_hu7316116316915550728.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-poco_hu11534016283964472176.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-poco-n_hu7517021117990102343.webp 400w,
+               /publication/nksr/room/1-poco-n_hu7378828296107447543.webp 760w,
+               /publication/nksr/room/1-poco-n_hu17409156453155992226.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-poco-n_hu7517021117990102343.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-ours_hu10640610189087540108.webp 400w,
+               /publication/nksr/room/1-ours_hu17167969353771985796.webp 760w,
+               /publication/nksr/room/1-ours_hu11892356385974439835.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-ours_hu10640610189087540108.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/1-ours-n_hu17240476159172168577.webp 400w,
+               /publication/nksr/room/1-ours-n_hu2087744613549358191.webp 760w,
+               /publication/nksr/room/1-ours-n_hu6429657951568761167.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-ours-n_hu17240476159172168577.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-lig_hu1531430307259061671.webp 400w,
+               /publication/nksr/room/2-lig_hu2080811970597600552.webp 760w,
+               /publication/nksr/room/2-lig_hu7103655618386731090.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-lig_hu1531430307259061671.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-lig-n_hu12548393057781573011.webp 400w,
+               /publication/nksr/room/2-lig-n_hu7428931170623495668.webp 760w,
+               /publication/nksr/room/2-lig-n_hu9416252640461708855.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-lig-n_hu12548393057781573011.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-nkf_hu17505087203296843478.webp 400w,
+               /publication/nksr/room/2-nkf_hu15230121401067702528.webp 760w,
+               /publication/nksr/room/2-nkf_hu6621345287196125302.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-nkf_hu17505087203296843478.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-nkf-n_hu12615167751384768152.webp 400w,
+               /publication/nksr/room/2-nkf-n_hu11670044828280465256.webp 760w,
+               /publication/nksr/room/2-nkf-n_hu8404634977398829852.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-nkf-n_hu12615167751384768152.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-poco_hu17269592811988998868.webp 400w,
+               /publication/nksr/room/2-poco_hu15650407750086386796.webp 760w,
+               /publication/nksr/room/2-poco_hu11451668100298209256.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-poco_hu17269592811988998868.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-poco-n_hu9666481299743955054.webp 400w,
+               /publication/nksr/room/2-poco-n_hu13155958172792674151.webp 760w,
+               /publication/nksr/room/2-poco-n_hu3944539344147122137.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-poco-n_hu9666481299743955054.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-ours_hu4287345800740742970.webp 400w,
+               /publication/nksr/room/2-ours_hu14324256336553158893.webp 760w,
+               /publication/nksr/room/2-ours_hu9071334763900100787.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-ours_hu4287345800740742970.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/2-ours-n_hu6525777761010820702.webp 400w,
+               /publication/nksr/room/2-ours-n_hu5368505571099128367.webp 760w,
+               /publication/nksr/room/2-ours-n_hu7148880687577246171.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-ours-n_hu6525777761010820702.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th&gt;Dual Octree GNN&lt;/th&gt;
+          &lt;th&gt;POCO&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-lig_hu13575903220909864584.webp 400w,
+               /publication/nksr/room/3-lig_hu4742284364126006787.webp 760w,
+               /publication/nksr/room/3-lig_hu2799232587786009350.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-lig_hu13575903220909864584.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-lig-n_hu10210861228555540973.webp 400w,
+               /publication/nksr/room/3-lig-n_hu13807050582933652011.webp 760w,
+               /publication/nksr/room/3-lig-n_hu4875405740431443865.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-lig-n_hu10210861228555540973.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-docnn_hu10439302889946430330.webp 400w,
+               /publication/nksr/room/3-docnn_hu10949357815222493288.webp 760w,
+               /publication/nksr/room/3-docnn_hu7137444778760145331.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-docnn_hu10439302889946430330.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-docnn-n_hu3704706944595409128.webp 400w,
+               /publication/nksr/room/3-docnn-n_hu12427703197376166228.webp 760w,
+               /publication/nksr/room/3-docnn-n_hu2235439896891535160.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-docnn-n_hu3704706944595409128.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-poco_hu8069612807597352902.webp 400w,
+               /publication/nksr/room/3-poco_hu443442077730039810.webp 760w,
+               /publication/nksr/room/3-poco_hu4893680314883365143.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-poco_hu8069612807597352902.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-poco-n_hu741820925635582430.webp 400w,
+               /publication/nksr/room/3-poco-n_hu1594418396004109816.webp 760w,
+               /publication/nksr/room/3-poco-n_hu14883677017388913832.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-poco-n_hu741820925635582430.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-ours_hu6067585182917822003.webp 400w,
+               /publication/nksr/room/3-ours_hu8372464542170795841.webp 760w,
+               /publication/nksr/room/3-ours_hu7696188327221754784.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-ours_hu6067585182917822003.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/3-ours-n_hu10982685234027816569.webp 400w,
+               /publication/nksr/room/3-ours-n_hu10054423688779044234.webp 760w,
+               /publication/nksr/room/3-ours-n_hu7512363103231763545.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-ours-n_hu10982685234027816569.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-lig_hu6807533085287587264.webp 400w,
+               /publication/nksr/room/4-lig_hu18214120612772660474.webp 760w,
+               /publication/nksr/room/4-lig_hu7623314112160522592.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-lig_hu6807533085287587264.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-lig-n_hu3974520807611636784.webp 400w,
+               /publication/nksr/room/4-lig-n_hu2369378327946961243.webp 760w,
+               /publication/nksr/room/4-lig-n_hu12470730765308473829.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-lig-n_hu3974520807611636784.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-docnn_hu1886568281445427076.webp 400w,
+               /publication/nksr/room/4-docnn_hu5229523762152697895.webp 760w,
+               /publication/nksr/room/4-docnn_hu13713585780290174571.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-docnn_hu1886568281445427076.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-docnn-n_hu694999525460726334.webp 400w,
+               /publication/nksr/room/4-docnn-n_hu4537754771466905014.webp 760w,
+               /publication/nksr/room/4-docnn-n_hu10943373558739543420.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-docnn-n_hu694999525460726334.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-poco_hu5633924454405969320.webp 400w,
+               /publication/nksr/room/4-poco_hu11575902746110160331.webp 760w,
+               /publication/nksr/room/4-poco_hu16780861823585579891.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-poco_hu5633924454405969320.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-poco-n_hu257164290955871063.webp 400w,
+               /publication/nksr/room/4-poco-n_hu15344270148346029500.webp 760w,
+               /publication/nksr/room/4-poco-n_hu13658377711128691097.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-poco-n_hu257164290955871063.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-ours_hu1912459418187627642.webp 400w,
+               /publication/nksr/room/4-ours_hu10814740541754649347.webp 760w,
+               /publication/nksr/room/4-ours_hu2726578594625139481.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-ours_hu1912459418187627642.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;div class=&#34;hover-change-cover&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/room/4-ours-n_hu9410541730623082409.webp 400w,
+               /publication/nksr/room/4-ours-n_hu16375996591072896212.webp 760w,
+               /publication/nksr/room/4-ours-n_hu17398890393399309870.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-ours-n_hu9410541730623082409.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;608&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- This will fix the table. --&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
+    $(&#39;table&#39;).addClass(&#39;table table-hover&#39;);
+}));
+&lt;/script&gt;
+&lt;h4 id=&#34;driving-scenes&#34;&gt;Driving Scenes&lt;/h4&gt;
+&lt;p&gt;We synthesize the first dataset for benchmarking large-scale surface reconstruction using the CARLA simulator.​
+We accumulate the LiDAR points from the sensor and crop the geometries into 51.2m × 51.2m chunks.
+&lt;span style=&#34;color:Tomato&#34;&gt;Move the slider&lt;/span&gt; to see side-by-side comparisons with the baselines (refresh your browser if the videos do not align).&lt;/p&gt;
+&lt;p&gt;CARLA origin subset:&lt;/p&gt;
+&lt;div class=&#34;two-cols-video&#34;&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-input.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
+  &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  
+	
+	
+	
+	
+	
+	&lt;video autoplay loop  &gt;
+	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
+	&lt;/video&gt;
+	&lt;div id=&#34;video-clipper&#34;&gt;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		  
+		
+		
+		
+		
+		
+		&lt;video autoplay loop  &gt;
+		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;CARLA novel subset:&lt;/p&gt;
+&lt;div class=&#34;two-cols-video&#34;&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-input.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
+  &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  
+	
+	
+	
+	
+	
+	&lt;video autoplay loop  &gt;
+	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
+	&lt;/video&gt;
+	&lt;div id=&#34;video-clipper&#34;&gt;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		  
+		
+		
+		
+		
+		
+		&lt;video autoplay loop  &gt;
+		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
+  $(&#34;.video-compare-container&#34;).each(function (index, videoContainer) {
+    function trackLocation(e) {
+      var rect = videoContainer.getBoundingClientRect(),
+      position = ((e.pageX - rect.left) / videoContainer.offsetWidth) * 100;
+      var videoClipper = videoContainer.querySelector(&#34;#video-clipper&#34;),
+      mover = videoContainer.querySelector(&#34;.mover&#34;),
+      clippedVideo = videoClipper.getElementsByTagName(&#34;video&#34;)[0];
+      if (position &lt;= 100) {
+        videoClipper.style.width = position + &#34;%&#34;;
+        clippedVideo.style.width = ((100/position)*100) + &#34;%&#34;;
+        clippedVideo.style.zIndex = 3;
+        mover.style.left = position + &#34;%&#34;;
+      }
+    }
+    videoContainer.addEventListener(&#34;mousemove&#34;, trackLocation, false);
+    videoContainer.addEventListener(&#34;touchstart&#34;, trackLocation, false);
+    videoContainer.addEventListener(&#34;touchmove&#34;, trackLocation, false);
+
+    // Sync two videos...
+    var video1 = videoContainer.getElementsByTagName(&#34;video&#34;)[0];
+    var video2 = videoContainer.getElementsByTagName(&#34;video&#34;)[1];
+    video1.addEventListener(&#39;loadeddata&#39;, function() {
+      video2.addEventListener(&#39;loadeddata&#39;, function() {
+        video1.currentTime = 0; video2.currentTime = 0;
+        video1.play(); video2.play();
+      }, false);
+    }, false);
+
+  });
+
+  // Auto-play all videos
+  $(&#39;video&#39;).each(function(i, obj) {
+    obj.muted = true;
+    obj.play();
+  });
+}));
+&lt;/script&gt;
+&lt;p&gt;The following shows direct generalization results to Waymo Open Dataset.
+During training time the model has &lt;em&gt;never&lt;/em&gt; seen real outdoor AV data.​
+&lt;span style=&#34;color:Tomato&#34;&gt;Click&lt;/span&gt; to zoom in.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/nksr/waymo_hu15883808779713443474.webp 400w,
+               /publication/nksr/waymo_hu17404671826726601573.webp 760w,
+               /publication/nksr/waymo_hu1777161860888789587.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/waymo_hu15883808779713443474.webp&#34;
+               width=&#34;1024&#34;
+               height=&#34;226&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;explanatory-video&#34;&gt;Explanatory Video&lt;/h3&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/J1V5F2z-dWY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+&lt;p&gt;If you find our work interesting, please consider citing us:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;@inproceedings{huang2023nksr,
+  title={Neural Kernel Surface Reconstruction},
+  author={Huang, Jiahui and Gojcic, Zan and Atzmon, Matan and Litany, Or and Fidler, Sanja and Williams, Francis},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4369--4379},
+  year={2023}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Neural Galerkin Solver for Accurate Surface Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/neuralgalerkin/</link>
+      <pubDate>Fri, 10 Jun 2022 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/neuralgalerkin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization</title>
+      <link>https://huangjh-pub.github.io/publication/synorim/</link>
+      <pubDate>Wed, 01 Dec 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/synorim/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/synorim/teaser_hu6605768260645695503.webp 400w,
+               /publication/synorim/teaser_hu15416954127689638820.webp 760w,
+               /publication/synorim/teaser_hu6359287630242512699.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu6605768260645695503.webp&#34;
+               width=&#34;1024&#34;
+               height=&#34;152&#34;
+               loading=&#34;lazy&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;We present &lt;span style=&#34;color:Tomato&#34;&gt;&lt;strong&gt;Sy&lt;/strong&gt;&lt;/span&gt;&lt;span style=&#34;color:RoyalBlue&#34;&gt;&lt;strong&gt;NoRi&lt;/strong&gt;&lt;/span&gt;&lt;span style=&#34;color:MediumOrchid&#34;&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/span&gt;, a novel way to jointly register &lt;span style=&#34;color:MediumOrchid&#34;&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/span&gt;ultiple &lt;span style=&#34;color:RoyalBlue&#34;&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/span&gt;n-&lt;span style=&#34;color:RoyalBlue&#34;&gt;&lt;strong&gt;Ri&lt;/strong&gt;&lt;/span&gt;gid shapes by &lt;span style=&#34;color:Tomato&#34;&gt;&lt;strong&gt;Sy&lt;/strong&gt;&lt;/span&gt;nchronizing the maps that relate learned functions defined on the &lt;em&gt;point clouds&lt;/em&gt;.
+Even though the ability to process non-rigid shapes is critical in various applications ranging from computer animation to 3D digitization, the literature still lacks a robust and flexible framework to match and align a collection of real, noisy scans observed under occlusions. Given a set of such point clouds, our method first computes the pairwise correspondences parameterized via functional maps.
+We simultaneously learn potentially non-orthogonal basis functions to effectively regularize the deformations, while handling the occlusions in an elegant way. To maximally benefit from the multi-way information provided by the inferred pairwise deformation fields, we synchronize the pairwise functional maps into a cycle-consistent whole thanks to our novel and principled optimization formulation. We demonstrate via extensive experiments that our method achieves a state-of-the-art performance in registration accuracy, while being flexible and efficient as we handle both non-rigid and multi-body cases in a unified framework and avoid the costly optimization over point-wise permutations by the use of basis function maps.&lt;/p&gt;
+&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;input&lt;/strong&gt; to our method is a set of point clouds $\{ \mathbf{X}_k \in \mathbb{R}^{N_k \times 3} \}$ and the &lt;strong&gt;output&lt;/strong&gt; of our method contains all the pairwise per-point 3D flow vectors $\{ \mathbf{F}_{kl} \in \mathbb{R}^{N_k \times 3} \}$.
+The flow vectors naturally induce the non-rigid warp field from $\mathbf{X}_k$ to $\mathbf{X}_l$ as $ \mathcal{W}_k (\mathbf{X}_k) =  \mathbf{X}_k + \mathbf{F}_{kl} $, optimally aligning the given point cloud pairs by deforming the source $\mathbf{X}_k$ onto the target $\mathbf{X}_l$.
+For multiple input clouds we additionally encourage the cyclic consistency of the flow estimates, i.e.: $ \mathcal{W}_{k_1} \circ \mathcal{W}_{k_2} \circ ... \circ \mathcal{W}_{k_p} \approx \mathcal{I} $ for all cycles in the densely-connected graph formed by the input set.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://huangjh-pub.github.io/publication/synorim/pipeline.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;During training, our method is supervised in a pairwise fashion.
+We first &lt;span class=&#34;hover&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;①&lt;/span&gt; use a sparse-convolution-based neural network $\varphi_{\mathrm{desc}}$ (i.e., &lt;span style=&#34;background-color:#FFE4E8; border:dashed 1px; padding-bottom:0.2em&#34;&gt;$\mathfrak{g}_\mathrm{pd}$&lt;/span&gt;) to establish putative correspondences between each point cloud pair.&lt;/span&gt;
+We then &lt;span class=&#34;hover&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;②&lt;/span&gt; estimate a set of basis functions $\{ \mathbf{\Phi}_k \in \mathbb{R}^{N_k \times M} \}$ for each point cloud using another network $\varphi_{\mathrm{basis}}$.
+By jointly modeling the correspondences and the bases in a robust way, the initial functional map $\mathbf{C}_{kl}^0$ is obtained before being refined with $\varphi_{\mathrm{refine}}$ that yields pairwise flow estimates. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;During test time with multiple inputs, we estimate the map set $\{\mathbf{C}_{kl}^0\}$ for all pairs.
+&lt;span class=&#34;hover&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;③&lt;/span&gt; The maps are subsequently synchronized to optimize for cycle consistency among the inputs. &lt;/span&gt;
+Finally, &lt;span class=&#34;hover&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;④&lt;/span&gt; 3D flows are estimated from the optimized functional maps $\{\mathbf{C}_{kl}^\star\}$ as our final output, using the same procedure as done in the pairwise setting.&lt;/span&gt;
+The registered point cloud is a fusion of all initial point clouds warped by the estimated flows.
+For more details, please read our technical report.&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;Some demonstrative registration results are shown below, all rendered as raw point clouds.
+For each animation the points from all other sources are warped to the current view as target.
+We use datasets from &lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAPE&lt;/a&gt;, &lt;a href=&#34;https://github.com/rabbityl/DeformingThings4D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeformingThings4D&lt;/a&gt;, &lt;a href=&#34;https://github.com/AljazBozic/DeepDeform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepDeform&lt;/a&gt;, and &lt;a href=&#34;https://sapien.ucsd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAPIEN&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- Originally I use h5 to wrap it, but it turns out to be unnecessary --&gt;
+&lt;div class=&#39;three-cols-video&#39;&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ &lt;video autoplay loop  &gt;
+   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ &lt;/video&gt;
+&lt;/div&gt;
+&lt;!-- Make video autoplay. --&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
+  $(&#39;video&#39;).each(function(i, obj) {
+    obj.muted = true;
+    obj.play();
+  });
+}));
+&lt;/script&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-dynamic-reconstruction-result-the-rgb-images-are-just-for-references&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dynamic reconstruction result. The RGB images are just for references.&#34; srcset=&#34;
+               /publication/synorim/recon_hu377666660400572581.webp 400w,
+               /publication/synorim/recon_hu6777402551520326354.webp 760w,
+               /publication/synorim/recon_hu752709778436055995.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hu377666660400572581.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;235&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Dynamic reconstruction result. The RGB images are just for references.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;We also provide extensive quantitative experiments and ablations in our main paper.
+Our results on FAUST online challenge can also be viewed &lt;a href=&#34;http://faust.is.tue.mpg.de/challenge/Intra-subject_challenge?challenge_id=2&amp;amp;sort=3&amp;amp;subchallenge_id=2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;dataset&#34;&gt;Dataset&lt;/h3&gt;
+&lt;p&gt;Our dataset is heavily based on published datasets. Although our modification is license-free, the original data providers may require you to accept different terms &amp;amp; conditions before being allowed to use them.
+Be sure to double-check that before downloading.
+If you find any legal issues, please let us know immediately.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Train&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Validation&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Test&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Origin&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Terms of Use&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Download Link&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-CAPE&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3015&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;798&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;209&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAPE&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/license.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1der12IAm_1o_M92nj71r0HpfxmBCaQmc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (11.2G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-DT4D&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3907&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1701&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1299&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://github.com/rabbityl/DeformingThings4D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeformingThings4D&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1r9VFHIZcatSej6guY_hGoGjrNqbgazAz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (20.6G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-DD&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1754&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;200&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;267&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://github.com/AljazBozic/DeepDeform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepDeform&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeQ1hkCmmTiib-oQM9s21y3Tz9ojiI2zB8vZSqTZjT2DiRZ0g/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ykFSe9TI9kZ-RozZw874YHDiO1cLRCgc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (2.4G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-SAPIEN&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;530&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;88&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;266&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAPIEN&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/about#term&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/13yMOoFmUV2Ca9j0tm_CD0nd1BGx1T8Jx/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (1.3G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- This will fix the table. --&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
+    $(&#39;table&#39;).addClass(&#39;table table-hover&#39;);
+}));
+&lt;/script&gt;
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+&lt;p&gt;If you find our work interesting, please consider citing us:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;@article{huang2021multiway,
+  title={Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization},
+  author={Huang, Jiahui and Birdal, Tolga and Gojcic, Zan and Guibas, Leonidas J and Hu, Shi-Min},
+  journal={arXiv preprint arXiv:2111.12878},
+  year={2021}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h3&gt;
+&lt;p&gt;We thank all the reviewers for their thoughtful comments and constructive suggestions.
+This paper was supported by National Key R&amp;amp;D Program of China (project No. 2021ZD0112902), a Vannevar Bush faculty fellowship, ARL grant W911NF2120104, NSF grant IIS-1763268, and a gift from the Autodesk Corporation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CIRCLE: Convolutional Implicit Reconstruction and Completion for Large-scale Indoor Scene</title>
+      <link>https://huangjh-pub.github.io/publication/circle/</link>
+      <pubDate>Mon, 01 Nov 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/circle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-Time Globally Consistent 3D Reconstruction with Semantic Priors</title>
+      <link>https://huangjh-pub.github.io/publication/semanticfusion/</link>
+      <pubDate>Mon, 01 Nov 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/semanticfusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subdivision-Based Mesh Convolution Networks</title>
+      <link>https://huangjh-pub.github.io/publication/subdivnet/</link>
+      <pubDate>Tue, 01 Jun 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/subdivnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization</title>
+      <link>https://huangjh-pub.github.io/publication/multibodysync/</link>
+      <pubDate>Mon, 01 Mar 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/multibodysync/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors</title>
+      <link>https://huangjh-pub.github.io/publication/difusion/</link>
+      <pubDate>Wed, 09 Dec 2020 22:01:07 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/difusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WallNet: Reconstructing General Room Layouts from RGB Images</title>
+      <link>https://huangjh-pub.github.io/publication/wallnet/</link>
+      <pubDate>Tue, 01 Sep 2020 22:01:38 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/wallnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings</title>
+      <link>https://huangjh-pub.github.io/publication/clustervo/</link>
+      <pubDate>Sun, 01 Mar 2020 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/clustervo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shallow2Deep: Indoor Scene Modeling by Single Image Understanding</title>
+      <link>https://huangjh-pub.github.io/publication/shallow2deep/</link>
+      <pubDate>Wed, 01 Jan 2020 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/shallow2deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion Estimation</title>
+      <link>https://huangjh-pub.github.io/publication/clusterslam/</link>
+      <pubDate>Tue, 01 Oct 2019 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/clusterslam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Modeling of Lofted Shapes from a Single Image</title>
+      <link>https://huangjh-pub.github.io/publication/lofted/</link>
+      <pubDate>Sat, 01 Jun 2019 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lofted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepSpline: Data-Driven Reconstruction of Parametric Curves and Surfaces</title>
+      <link>https://huangjh-pub.github.io/publication/deepspline/</link>
+      <pubDate>Thu, 10 Jan 2019 22:01:07 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/deepspline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepPrimitive: Image decomposition by layered primitive detection</title>
+      <link>https://huangjh-pub.github.io/publication/deepprimitive/</link>
+      <pubDate>Sun, 23 Dec 2018 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/deepprimitive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controllable Dendritic Crystal Simulation Using Orientation Field</title>
+      <link>https://huangjh-pub.github.io/publication/crystal/</link>
+      <pubDate>Tue, 22 May 2018 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/crystal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MUSA: Wi-Fi AP-assisted video prefetching via Tensor Learning</title>
+      <link>https://huangjh-pub.github.io/publication/musa/</link>
+      <pubDate>Mon, 01 May 2017 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/musa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
