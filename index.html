@@ -180,13 +180,14 @@
 
     .highlight-paper-card .video-container {
       width: 100%;
-      background: #000;
+      background: #000; /* 可以把这行删掉，或者改为 background: transparent; */
       line-height: 0;
     }
 
     .highlight-paper-card .video-container video {
       width: 100%;
-      height: auto;
+      height: 100%;         /* 强制高度填满 */
+      object-fit: cover;    /* 关键属性：裁切视频以填满容器，消除黑边 */
       display: block;
     }
 
@@ -647,7 +648,7 @@
             <div class="highlight-paper-card">
               <div class="video-container">
                 <video autoplay loop muted playsinline>
-                  <source src="/publication/lingbotworld/lingbotworld.gif" type="video/mp4">
+                  <img src="/publication/lingbotworld/lingbotworld.gif" alt="LingBotWorld" style="width: 100%; height: auto;">
                 </video>
               </div>
               <div class="paper-info">
