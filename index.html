@@ -180,15 +180,20 @@
 
     .highlight-paper-card .video-container {
       width: 100%;
-      background: #000; /* 可以把这行删掉，或者改为 background: transparent; */
-      line-height: 0;
+      height: 250px;       /* 🔥 关键：在这里设定一个统一的高度，比如 250px */
+      overflow: hidden;    /* 超出部分隐藏 */
+      background: #000;    /* 背景色，防漏光 */
+      position: relative;
     }
 
-    .highlight-paper-card .video-container video {
+    /* 2. 强制视频和图片填满容器 */
+    .highlight-paper-card .video-container video,
+    .highlight-paper-card .video-container img {
       width: 100%;
-      height: 100%;         /* 强制高度填满 */
-      object-fit: cover;    /* 关键属性：裁切视频以填满容器，消除黑边 */
+      height: 100%;        /* 强制高度填满 */
+      object-fit: cover;   /* 🔥 核心：按比例缩放并裁剪，保证铺满且不变形 */
       display: block;
+      border: none;
     }
 
     .highlight-paper-card .paper-info {
@@ -647,7 +652,7 @@
 
             <div class="highlight-paper-card">
               <div class="video-container">
-                <img src="/publication/lingbotworld/lingbotworld.gif" alt="LingBotWorld" style="width: 100%; height: auto;">
+                <img src="/publication/lingbotworld/lingbotworld.gif" alt="LingBotWorld">
               </div>
               <div class="paper-info">
                 <div class="section-subheading article-title mb-0 mt-0">
@@ -697,7 +702,7 @@
 
           <div class="highlight-paper-card">
               <div class="video-container">
-                <img src="/publication/holocine/holocine.gif" alt="HoloCine" style="width: 100%; height: auto;">
+                <img src="/publication/holocine/holocine.gif" alt="HoloCine">
               </div>
               <div class="paper-info">
                 <div class="section-subheading article-title mb-0 mt-0">
@@ -747,7 +752,7 @@
 
           <div class="highlight-paper-card">
               <div class="video-container">
-                <img src="/publication/levitor/levitor.gif" alt="LeviTor" style="width: auto; height: 100%;">
+                <img src="/publication/levitor/levitor.gif" alt="LeviTor">
               </div>
               <div class="paper-info">
                 <div class="section-subheading article-title mb-0 mt-0">
@@ -769,9 +774,9 @@
             </div>
 
             <div class="highlight-paper-card">
-              <img src="/publication/uniad/uniad.jpg" 
-                 alt="Uniad" 
-                 style="width: 100%; height: auto; display: block; border-bottom: 1px solid #eee;">
+              <div class="video-container">
+                <img src="/publication/uniad/uniad.jpg" alt="Uniad">
+              </div>
               <div class="paper-info">
                 <div class="section-subheading article-title mb-0 mt-0">
                   Contextual AD Narration with Interleaved Multimodal Sequence
@@ -792,7 +797,7 @@
 
           <div class="highlight-paper-card">
               <div class="video-container">
-                <img src="/publication/anidoc/anidoc.gif" alt="Anidoc" style="width: 100%; height: auto;">
+                <img src="/publication/anidoc/anidoc.gif" alt="Anidoc">
               </div>
               <div class="paper-info">
                 <div class="section-subheading article-title mb-0 mt-0">
@@ -814,9 +819,9 @@
             </div>
 
             <div class="highlight-paper-card">
-              <img src="/publication/pdpp/pdpp.png" 
-                 alt="PDPP" 
-                 style="width: 100%; height: auto; display: block; border-bottom: 1px solid #eee;">
+              <div class="video-container">
+                <img src="/publication/pdpp/pdpp.png" alt="PDPP" >
+              </div>
               <div class="paper-info">
                 <div class="section-subheading article-title mb-0 mt-0">
                   PDPP: Projected Diffusion for Procedure Planning in Instructional Videos
